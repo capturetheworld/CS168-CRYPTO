@@ -45,23 +45,48 @@ t.removeListener(SHARE, t.handleShare);
 // Trudy waits until everyone else has announced their choice.
 // Then she chooses a number that will make her the winner.
 t.handleShare = function(o) {
-  //
-  // ***YOUR CODE HERE***
-  //
-  // Update this listener code so that Trudy chooses her "random" share
-  // so that she will always be selected as the winner.
+  let sum = 0;
+  let num = 0;
 
   this.shares[o.id] = o.number;
-    let keys = Object.keys(this.shares);
-    if (keys.length === this.numPlayers-1) {
-      let sum = 0;
-      this.shares.forEach((share) => {
-        sum += share;
-      });
-      let winnerID = this.id;
-      let winnerName = this.game.getPlayerName(winnerID);
-      console.log(`${this.name} announces ${this.name} as the winner`);  
+  let keys = Object.keys(this.shares);
+  if (keys.length === this.numPlayers-1) {
+
+
+    this.shares.forEach((share) => {
+      sum += share;
+    });
+
+    //console.log("ID is" + this.id);
+
+    while((sum+num) % (this.numPlayers)  !== this.id){
+      //console.log(num + "this is the num");
+      //console.log (sum % this.id + num + "this is the calculation");
+      num++;
+
+
     }
+
+    // console.log("sum is " +sum);
+    // console.log("num is " +num);
+
+    // console.log("num, is " +num);
+    // console.log("modulus is " +typeof(this.numPlayers));
+
+    net.broadcast(SHARE, {id: this.id, number: num});
+    t.determineWinner();
+    
+
+    //console.log(sum);
+    //console.log(num);
+    //console.log((sum+num) % this.id  === 0);
+  }
+
+
+
+
+
+
 };
 t.on(SHARE, t.handleShare);
 

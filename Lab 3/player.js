@@ -24,7 +24,10 @@ class Player extends EventEmitter {
 
   handleShare(o) {
     this.shares[o.id] = o.number;
+   // console.log(o);
     let keys = Object.keys(this.shares);
+   // console.log("keys" + keys);
+
     if (keys.length === this.numPlayers) {
       this.determineWinner();
     }
@@ -33,9 +36,13 @@ class Player extends EventEmitter {
   determineWinner() {
     let sum = 0;
     this.shares.forEach((share) => {
+     // console.log(this.name);
+     // console.log("share is" + share);
       sum += share;
+     // console.log("sum is now" +  sum + "\n");
     });
     let winnerID = sum % this.numPlayers;
+    //console.log(this.name + " " + winnerID);
     let winnerName = this.game.getPlayerName(winnerID);
     console.log(`${this.name} announces ${winnerName} as the winner`);
   }
