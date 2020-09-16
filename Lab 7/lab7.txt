@@ -1,0 +1,33 @@
+
+In today's lab, we will look at a first attempt at a distributed ledger.
+
+
+Part 1: Implement a distributed ledger
+--------------------------------------
+
+Download client.js, fakeNet.js, and driver.js from the course website.
+
+Unlike with DigiCash, there is no central authority.  Instead, every client keeps there own personal copy of the ledger.
+
+In client.js, update the 'give' and 'updateLedger' methods.  The 'give' method should create a JSON object with the details needed to indicate a transfer of funds to another user.  Sign the object and then broadcast it to the network using the "XFER_FUNDS" event name.
+
+The 'updateLedger' method is invoked on a "XFER_FUNDS" event.  Each client should verify that the message is valid.  If so, the ledger should be updated to account for the transfer.
+
+If a user tries to spend money that they do not have, call the "punishCheater" method.  (Currently, this method does nothing, but we will make use of it in the next section).
+
+
+
+Part 2: Eject a user from the network
+-------------------------------------
+
+Unfortunately, our design is rife with problems.  For our first illustration, Trudy will exploit the system design to eject Bob from the network.
+
+Download eject.js from the course website.  The StrictClient class extends Client to handle cheaters by deleting their funds and dropping them from the network.
+
+Trudy can send messages to individual clients to get the network out of sync.  She can use this approach to make Bob think he has more money than he does.  If he tries to spend this money, the rest of the network will eject him.
+
+Update the 'fakeGive' function in eject.js so that only Bob sees a specific transaction from Trudy.  Use that function to have Trudy give Bob some money.
+
+Next, have Bob spend that money on the network.  Verify that the other clients reject Bob's transaction and eject him from the network.
+
+Paste your modified code into Canvas.
