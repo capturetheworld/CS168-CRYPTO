@@ -1,0 +1,29 @@
+Starting balances:
+{"Alice":200,"Bob":50}
+
+Coin #2ec2f73593e9bd603f66c9c783db3fc4efc6de167f2a2d28da702ec9a3a166a4fff8f69b359ff7e81e1205483681ce96 has been redeemed.  Have a nice day.
+Balances after 1st coin:
+{"Alice":180,"Bob":70}
+
+Coin 2ec2f73593e9bd603f66c9c783db3fc4efc6de167f2a2d28da702ec9a3a166a4fff8f69b359ff7e81e1205483681ce96 previously spent.  Determining cheater.
+Alice double spent coin 2ec2f73593e9bd603f66c9c783db3fc4efc6de167f2a2d28da702ec9a3a166a4fff8f69b359ff7e81e1205483681ce96.
+Sorry, but coin #2ec2f73593e9bd603f66c9c783db3fc4efc6de167f2a2d28da702ec9a3a166a4fff8f69b359ff7e81e1205483681ce96 cannot be accepted.
+Balances after Alice's attempt to double-spend:
+{"Alice":180,"Bob":70}
+
+Coin #682a2a013a50efd861febd0baca9cc1961ac65a16b8a27df0172e0fff0d63bda35f94436e54c467d06a2fa32f581946e has been redeemed.  Have a nice day.
+Balances after 2nd coin spent:
+{"Alice":130,"Bob":120}
+
+Coin 682a2a013a50efd861febd0baca9cc1961ac65a16b8a27df0172e0fff0d63bda35f94436e54c467d06a2fa32f581946e previously spent.  Determining cheater.
+The merchant tried to redeem the coin twice
+Sorry, but coin #682a2a013a50efd861febd0baca9cc1961ac65a16b8a27df0172e0fff0d63bda35f94436e54c467d06a2fa32f581946e cannot be accepted.
+Balances after 2nd coin spent:
+{"Alice":130,"Bob":120}
+
+Bob rejects the forged coin.
+
+The bank rejects the forged coin.
+
+Balances after forgery attempts:
+{"Alice":130,"Bob":120}

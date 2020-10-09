@@ -51,45 +51,50 @@ function parseCoin(s) {
  * @returns {[String]} - an array of strings, each holding half of the user's identity.
  */
 function acceptCoin(coin) {
-  //
-  // ***YOUR CODE HERE***
-  //
-  // 1) Verify that the signature is valid.
-  // 2) Gather the elements of the RIS, verifying the hashes.
-  // 3) Return the RIS.
+ 
+      
+    // 1) Verify that the signature is valid.
+    let cs = coin.toString();
+    let valid = blindSignatures.verify({
+      unblinded: coin.signature,
+      N: N,
+      E: E,
+      message: cs,
+    });
 
-
-  let verifysig = blindSignatures.verify({
-    unblinded: coin.signature,
-    N: coin.n,
-    E: coin.e,
-    message: coin.coinString,
-  });
-  console.log(verifysig);
-
-
-  let parsedCoins =  parseCoin(coin.coinString);
-
-  let arr = [];
-
-  let i = 0;
-  for (i = 0; i< COIN_RIS_LENGTH; i++){
-    let flip = utils.randInt(2);
-    let bool_left = false;
-
-    if(flip ==1){
-      bool_left = true; 
-    }
-
-    arr[i] = coin.getRis(bool_left,i)
-
-    if(parsedCoins[flip][i] != utils.hash(arr[i]) ){
-      return false;
+    if(!valid){
+      throw new Error("Invalid signature");
     }
 
 
-  }
-  return arr;
+     // 2) Gather the elements of the RIS, verifying the hashes.
+
+     let [lh,rh] = parseCoin(cs); //hashes commit spender of coin to a certain value
+     let ris =[]; //each has different id string
+
+     for(let i = 0; i<lh.length; i++){
+      let isLeft = !!utils.randInt(2);
+      let identHalf = coin.getRis(isLeft,i);
+      let hashVal = isLeft ? lh[i] : rh[i];
+
+      if(h !== hashVal){
+        throw new Error(`Expected ${hashVal} but got ${h}`);
+      }
+
+      ris.push(identHalf);
+     }
+
+
+
+
+     // 3) Return the RIS.
+
+     return ris;
+
+
+
+
+
 }
 
 
@@ -114,24 +119,8 @@ function determineCheater(guid, ris1, ris2) {
   // If the pair XORed begins with IDENT, extract coin creator ID.
   // Otherwise, declare the merchant as the cheater.
 
-  let flag = false;
-
-  for(let i=0; i<= COIN_RIS_LENGTH-1; i++){
-
-    flag = utils.decryptOTP({key:ris1[i], ciphertext:ris2[i], returnType:"string"});
-
-    let res = flag.substring(0,5)
-
-    if (res == "IDENT"){
-      console.log(flag + " is a cheater");
-      return;
-    }
-
-    else if(ris1[i] == ris2[i]){
-      console.log("The merchant is cheating");
-      return;
-    }
-  }
+ 
+  
 }
 
 let coin = new Coin('alice', 20, N, E);

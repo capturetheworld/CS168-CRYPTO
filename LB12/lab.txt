@@ -1,0 +1,60 @@
+
+In this lab, we will explore the use mnemonics for generating deterministic wallets.  We will also look at how to create npm modules and how to use mocha and chai for unit testing.
+
+Mnemonics encode binary information in English words (or words of other human languages).  This design comes from Bitcoin Improvement Proposal (BIP) 39.  See https://en.bitcoin.it/wiki/BIP_0039 for the proposal.
+
+For this lab, download mnemonic.js, driver.js, and test.js from the course website.
+
+PART 1 -- Create a new npm module
+---------------------------------
+
+The node package manager (npm) is the standard package manager for Node.js.  To create a new project, go to the command line, change to the directory where you want to create the project, and type:
+
+$ mkdir mnemonics
+$ cd mnemonics
+$ npm init
+
+Accept the default configuration, except for "entry point" (specify "mnemonics.js"), "test command" (specify "mocha") and "author" (specify your name).
+
+You will also need to install mocha and chai for your unit tests:
+
+$ npm install mocha
+$ npm install chai
+
+If you make a mistake, you can change the configuration by editing package.json.
+
+
+
+PART 2 -- Generate a random sequence
+------------------------------------
+
+Download https://github.com/bitcoinjs/bip39/blob/master/src/wordlists/english.json.
+
+The english.json file contains a list of English words for generating mnemonics.  If you prefer, feel free to use one of the other language wordlists, but be sure to also download english.json since we use it in our unit tests.
+
+1) Generate a random 256 bit sequence.
+2) Create a checksum.
+  a. hash the sequence.
+  b. take the first 8 bits of the hash value.
+3) Add the checksum to the end of the random sequence.
+
+
+
+PART 2 -- Determine the mnemonic phrase from the random sequence
+----------------------------------------------------------------
+
+Now that you have the random sequence, update the `words` method to calculate the list of words from the random sequence.
+
+1) Split the result into 11-bit length sequences.  (The 'split' static method in this class does that for you).
+2) Map each 11-bit value to a word in english.json.
+3) Return the string of random words.
+
+
+
+PART 4 -- Determine the random sequence from the mnemonic phrase
+----------------------------------------------------------------
+If the "words" string is specified when invoking the constructor, the random sequence should be determined from the list of words.  Update the code to do so.
+
+
+
+When all unit tests are passing, paste mnemonic.js into Canvas.

@@ -1,0 +1,531 @@
+Starting simulation.  This may take a moment...
+Initial balances:
+
+Alice's balance is 233.
+┌─────────┬────────────────────────────────────────────────┬────────┐
+│ (index) │                    address                     │ amount │
+├─────────┼────────────────────────────────────────────────┼────────┤
+│    0    │ 'OChynU73CpwGQokxxxrWlrCWDawLucnb20+eUouWeIM=' │  233   │
+│    1    │                 '***TOTAL***'                  │  233   │
+└─────────┴────────────────────────────────────────────────┴────────┘
+
+Bob's balance is 99.
+┌─────────┬────────────────────────────────────────────────┬────────┐
+│ (index) │                    address                     │ amount │
+├─────────┼────────────────────────────────────────────────┼────────┤
+│    0    │ '8JeuvuktuAK1NYBvGQAs7ocOGTWhexd7nKFNwQzNPWo=' │   99   │
+│    1    │                 '***TOTAL***'                  │   99   │
+└─────────┴────────────────────────────────────────────────┴────────┘
+
+Charlie's balance is 67.
+┌─────────┬────────────────────────────────────────────────┬────────┐
+│ (index) │                    address                     │ amount │
+├─────────┼────────────────────────────────────────────────┼────────┤
+│    0    │ 'TvywO1Mf+QUxiv8UIlXMcjoMCUkmqiZPg4k+JlGB+IQ=' │   67   │
+│    1    │                 '***TOTAL***'                  │   67   │
+└─────────┴────────────────────────────────────────────────┴────────┘
+
+Minnie's balance is 200.
+┌─────────┬────────────────────────────────────────────────┬────────┐
+│ (index) │                    address                     │ amount │
+├─────────┼────────────────────────────────────────────────┼────────┤
+│    0    │ 'UL5CtUuu2dK17Nbr9lQLuMfJT7lXQmOPs1uW5xycOkU=' │  200   │
+│    1    │                 '***TOTAL***'                  │  200   │
+└─────────┴────────────────────────────────────────────────┴────────┘
+
+Mickey's balance is 200.
+┌─────────┬────────────────────────────────────────────────┬────────┐
+│ (index) │                    address                     │ amount │
+├─────────┼────────────────────────────────────────────────┼────────┤
+│    0    │ 'jYAoTcHQcw7g4a2wW3wsPtZcR97BTGIo30UNZvBQl9s=' │  200   │
+│    1    │                 '***TOTAL***'                  │  200   │
+└─────────┴────────────────────────────────────────────────┴────────┘
+
+***Alice is transferring 40 gold to Bob at address XxTeBbm8TK5LhflNdZsxbwufxR62UOdwHEGTHO7KMhU=
+
+***Need to make 192 change, with 233 in and 41 out.
+
+**Deleting OChynU73CpwGQokxxxrWlrCWDawLucnb20+eUouWeIM=
+
+***Giving 40 to XxTeBbm8TK5LhflNdZsxbwufxR62UOdwHEGTHO7KMhU=.
+***Giving 192 to bNJI2r/t+tcohCVf3Q1wTrhLdBWIkOo6+sIb9FQZDlg=.
+
+**Deleting OChynU73CpwGQokxxxrWlrCWDawLucnb20+eUouWeIM=
+
+***Giving 40 to XxTeBbm8TK5LhflNdZsxbwufxR62UOdwHEGTHO7KMhU=.
+***Giving 192 to bNJI2r/t+tcohCVf3Q1wTrhLdBWIkOo6+sIb9FQZDlg=.
+Mickey: found proof for block 1: 4463
+
+**Deleting OChynU73CpwGQokxxxrWlrCWDawLucnb20+eUouWeIM=
+
+***Giving 40 to XxTeBbm8TK5LhflNdZsxbwufxR62UOdwHEGTHO7KMhU=.
+***Giving 192 to bNJI2r/t+tcohCVf3Q1wTrhLdBWIkOo6+sIb9FQZDlg=.
+Mickey: cutting over to new chain.
+
+**Deleting OChynU73CpwGQokxxxrWlrCWDawLucnb20+eUouWeIM=
+
+***Giving 40 to XxTeBbm8TK5LhflNdZsxbwufxR62UOdwHEGTHO7KMhU=.
+***Giving 192 to bNJI2r/t+tcohCVf3Q1wTrhLdBWIkOo6+sIb9FQZDlg=.
+
+**Deleting OChynU73CpwGQokxxxrWlrCWDawLucnb20+eUouWeIM=
+
+***Giving 40 to XxTeBbm8TK5LhflNdZsxbwufxR62UOdwHEGTHO7KMhU=.
+***Giving 192 to bNJI2r/t+tcohCVf3Q1wTrhLdBWIkOo6+sIb9FQZDlg=.
+
+**Deleting OChynU73CpwGQokxxxrWlrCWDawLucnb20+eUouWeIM=
+
+***Giving 40 to XxTeBbm8TK5LhflNdZsxbwufxR62UOdwHEGTHO7KMhU=.
+***Giving 192 to bNJI2r/t+tcohCVf3Q1wTrhLdBWIkOo6+sIb9FQZDlg=.
+
+**Deleting OChynU73CpwGQokxxxrWlrCWDawLucnb20+eUouWeIM=
+
+***Giving 40 to XxTeBbm8TK5LhflNdZsxbwufxR62UOdwHEGTHO7KMhU=.
+***Giving 192 to bNJI2r/t+tcohCVf3Q1wTrhLdBWIkOo6+sIb9FQZDlg=.
+Minnie: cutting over to new chain.
+Minnie: Inputs do not match outputs for transaction 072dc6842029edd71b49b0aa657a95b0d40bb4a503a9ff339f26d1345f052a9a: 0 in, but 233 out.
+Minnie: found proof for block 2: 8276
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Mickey: found proof for block 3: 24763
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: found proof for block 4: 2784
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Mickey: found proof for block 5: 8612
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: found proof for block 6: 28715
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 7: 15916
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Mickey: found proof for block 8: 24197
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Mickey: found proof for block 9: 10043
+Mickey: cutting over to new chain.
+Minnie: found proof for block 9: 11877
+Minnie: cutting over to new chain.
+Mickey: found proof for block 10: 27711
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: found proof for block 11: 10802
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 12: 745
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 13: 23320
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 14: 3465
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Mickey: found proof for block 15: 31995
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Mickey: found proof for block 16: 3369
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Mickey: found proof for block 17: 2928
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Mickey: found proof for block 18: 3420
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Mickey: found proof for block 19: 5518
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: found proof for block 20: 9842
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 21: 4723
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Mickey: found proof for block 22: 4319
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Mickey: found proof for block 23: 6915
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: found proof for block 24: 45919
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+
+
+Alice's balance is 192.
+┌─────────┬────────────────────────────────────────────────┬────────┐
+│ (index) │                    address                     │ amount │
+├─────────┼────────────────────────────────────────────────┼────────┤
+│    0    │ 'bNJI2r/t+tcohCVf3Q1wTrhLdBWIkOo6+sIb9FQZDlg=' │  192   │
+│    1    │                 '***TOTAL***'                  │  192   │
+└─────────┴────────────────────────────────────────────────┴────────┘
+
+Bob's balance is 139.
+┌─────────┬────────────────────────────────────────────────┬────────┐
+│ (index) │                    address                     │ amount │
+├─────────┼────────────────────────────────────────────────┼────────┤
+│    0    │ '8JeuvuktuAK1NYBvGQAs7ocOGTWhexd7nKFNwQzNPWo=' │   99   │
+│    1    │ 'XxTeBbm8TK5LhflNdZsxbwufxR62UOdwHEGTHO7KMhU=' │   40   │
+│    2    │                 '***TOTAL***'                  │  139   │
+└─────────┴────────────────────────────────────────────────┴────────┘
+
+Charlie's balance is 67.
+┌─────────┬────────────────────────────────────────────────┬────────┐
+│ (index) │                    address                     │ amount │
+├─────────┼────────────────────────────────────────────────┼────────┤
+│    0    │ 'TvywO1Mf+QUxiv8UIlXMcjoMCUkmqiZPg4k+JlGB+IQ=' │   67   │
+│    1    │                 '***TOTAL***'                  │   67   │
+└─────────┴────────────────────────────────────────────────┴────────┘
+
+Minnie's balance is 400.
+┌─────────┬────────────────────────────────────────────────┬────────┐
+│ (index) │                    address                     │ amount │
+├─────────┼────────────────────────────────────────────────┼────────┤
+│    0    │ 'UL5CtUuu2dK17Nbr9lQLuMfJT7lXQmOPs1uW5xycOkU=' │  200   │
+│    1    │ 'c5raqBMr2ocLZQUIfLsLn+HjiIMf3/iqBDhZr82oBsc=' │   25   │
+│    2    │ 'JFtLqQtPDeAumo+dbmAFqlCjsMJ2VUsIMWqAtyMqQaQ=' │   25   │
+│    3    │ 'KlCpVPGGuxlVucdSaWIyu6fYidhXzrPBaFhAsY10Wcs=' │   25   │
+│    4    │ 'EcquQnUvno5rmbE0oucA9Oq4QpnPv3n8AyT7jezqMH8=' │   25   │
+│    5    │ 'x4+cbpWtNyy3Vt7OnSRWoLp+PuLN+xjLzU+nPog4B2A=' │   0    │
+│    6    │ 'T3payhG+0N6xSbzaU2yjhsIm/X5Zwq1bxd1TAcpKzLM=' │   25   │
+│    7    │ 'SBc6cb4e817fn08J0N8J26KEp7oAz6mj67Ifh9X4Jy8=' │   25   │
+│    8    │ 'p4wEaEoPcRR3qAtYasczU0Zxbl6JZEcq4MirDA3CMSE=' │   25   │
+│    9    │ '2tdlz5fR3MlE5WFgnuFzp8BvmiFiMALkjUgT6LIr4Ec=' │   25   │
+│   10    │ 'A6I/EyYX0K32VuErU44AlDQFycM8BnVNpezmx5/HGHw=' │   0    │
+│   11    │ 'lkGsZ2Hghcsc0febkE69GMLz4CI3oNueScRP01p3bUc=' │   0    │
+│   12    │ 'hyAqGiHUhCAgmhjSFmfJPy+G+9nCSMvqNZZDf1L+tDU=' │   0    │
+│   13    │ 'tVp6M/PA9dnzohfLEyjLMvtsvdIfAKoY6j6im4wq3+c=' │   0    │
+│   14    │                 '***TOTAL***'                  │  400   │
+└─────────┴────────────────────────────────────────────────┴────────┘
+
+Mickey's balance is 426.
+┌─────────┬────────────────────────────────────────────────┬────────┐
+│ (index) │                    address                     │ amount │
+├─────────┼────────────────────────────────────────────────┼────────┤
+│    0    │ 'jYAoTcHQcw7g4a2wW3wsPtZcR97BTGIo30UNZvBQl9s=' │  200   │
+│    1    │ 'gSUszgXo6rYf4RcJBM8P1/vqt4exMoz8A3VvD3k2qsY=' │   26   │
+│    2    │ 'bm7F3iXthYQ5uKwpKUcMaOem6kAtp2lNPve5KR7Twk8=' │   25   │
+│    3    │ '0QRnl8eQkt/I8eN6NbWaRdU1QUVBCobrZX8yJyM5hgw=' │   25   │
+│    4    │ 'lrCwR5JVtwNI1DD0WwLOJruR6Fp0KrM0cc60Y8VmfCM=' │   25   │
+│    5    │ '23+940BLtsPwl6o0BV9sHVA796wwfblNuRtWb9SD+Og=' │   25   │
+│    6    │ '1TsISeirG7nAfZxDAozxA11/B9LrDmZjyl8k7F2V/5o=' │   25   │
+│    7    │ '23tidGZ9sx4IpPKNzWo1XaKiKhfkY288Qu0zqoWUGZs=' │   25   │
+│    8    │ 'Y/y0xnKWQCfAY10paDyDwYxKtW4WbbVzpse+1y/7DeM=' │   25   │
+│    9    │ 'KGRO9fmJ/4omtgVdgI7pOXqX53JmKb8Nkj8CRWeQNdg=' │   25   │
+│   10    │ 'TPo2l8/YW6Ei+4bO4xIGdJF8d1zBHkbdYHUZ2SC66zY=' │   0    │
+│   11    │ '2aiQrjO6KzB8iNrhWIjVhRCdz3g0y9wixz6T6gw3wwc=' │   0    │
+│   12    │ 'LPSSvtVcq+gkRp+4SagDqoF0vZHRUZFY/JSZQaoBoe4=' │   0    │
+│   13    │ 'F2szY1YuhtPtHoF3KcxDfF6ic7AxWDmgwmyOXGszK/M=' │   0    │
+│   14    │ 'Ag5qp/qTGMteWM2tKbbBGJwpidtylKF+cn6FYM9kbe0=' │   0    │
+│   15    │                 '***TOTAL***'                  │  426   │
+└─────────┴────────────────────────────────────────────────┴────────┘
+
+***Bob is transferring 110 gold to Charlie at address Psxf1QwdpczLJ5jvnF/vWINqN4jALFGbfMS6mwH3hd0=
+
+***Need to make 28 change, with 139 in and 111 out.
+
+**Deleting 8JeuvuktuAK1NYBvGQAs7ocOGTWhexd7nKFNwQzNPWo=
+
+
+**Deleting XxTeBbm8TK5LhflNdZsxbwufxR62UOdwHEGTHO7KMhU=
+
+***Giving 110 to Psxf1QwdpczLJ5jvnF/vWINqN4jALFGbfMS6mwH3hd0=.
+***Giving 28 to /VujD4Nvm3n2BWDNBdQO7y0FGQjAfrVIxCDvpBph5Tk=.
+
+**Deleting 8JeuvuktuAK1NYBvGQAs7ocOGTWhexd7nKFNwQzNPWo=
+
+
+**Deleting XxTeBbm8TK5LhflNdZsxbwufxR62UOdwHEGTHO7KMhU=
+
+***Giving 110 to Psxf1QwdpczLJ5jvnF/vWINqN4jALFGbfMS6mwH3hd0=.
+***Giving 28 to /VujD4Nvm3n2BWDNBdQO7y0FGQjAfrVIxCDvpBph5Tk=.
+Minnie: found proof for block 25: 26082
+
+**Deleting 8JeuvuktuAK1NYBvGQAs7ocOGTWhexd7nKFNwQzNPWo=
+
+
+**Deleting XxTeBbm8TK5LhflNdZsxbwufxR62UOdwHEGTHO7KMhU=
+
+***Giving 110 to Psxf1QwdpczLJ5jvnF/vWINqN4jALFGbfMS6mwH3hd0=.
+***Giving 28 to /VujD4Nvm3n2BWDNBdQO7y0FGQjAfrVIxCDvpBph5Tk=.
+Minnie: cutting over to new chain.
+
+**Deleting 8JeuvuktuAK1NYBvGQAs7ocOGTWhexd7nKFNwQzNPWo=
+
+
+**Deleting XxTeBbm8TK5LhflNdZsxbwufxR62UOdwHEGTHO7KMhU=
+
+***Giving 110 to Psxf1QwdpczLJ5jvnF/vWINqN4jALFGbfMS6mwH3hd0=.
+***Giving 28 to /VujD4Nvm3n2BWDNBdQO7y0FGQjAfrVIxCDvpBph5Tk=.
+
+**Deleting 8JeuvuktuAK1NYBvGQAs7ocOGTWhexd7nKFNwQzNPWo=
+
+
+**Deleting XxTeBbm8TK5LhflNdZsxbwufxR62UOdwHEGTHO7KMhU=
+
+***Giving 110 to Psxf1QwdpczLJ5jvnF/vWINqN4jALFGbfMS6mwH3hd0=.
+***Giving 28 to /VujD4Nvm3n2BWDNBdQO7y0FGQjAfrVIxCDvpBph5Tk=.
+
+**Deleting 8JeuvuktuAK1NYBvGQAs7ocOGTWhexd7nKFNwQzNPWo=
+
+
+**Deleting XxTeBbm8TK5LhflNdZsxbwufxR62UOdwHEGTHO7KMhU=
+
+***Giving 110 to Psxf1QwdpczLJ5jvnF/vWINqN4jALFGbfMS6mwH3hd0=.
+***Giving 28 to /VujD4Nvm3n2BWDNBdQO7y0FGQjAfrVIxCDvpBph5Tk=.
+
+**Deleting 8JeuvuktuAK1NYBvGQAs7ocOGTWhexd7nKFNwQzNPWo=
+
+
+**Deleting XxTeBbm8TK5LhflNdZsxbwufxR62UOdwHEGTHO7KMhU=
+
+***Giving 110 to Psxf1QwdpczLJ5jvnF/vWINqN4jALFGbfMS6mwH3hd0=.
+***Giving 28 to /VujD4Nvm3n2BWDNBdQO7y0FGQjAfrVIxCDvpBph5Tk=.
+Mickey: cutting over to new chain.
+Mickey: Inputs do not match outputs for transaction b34fcddea63505a8d0c87aac601f53a6194f8652678cb5b99af8a8e4c432390a: 0 in, but 139 out.
+Mickey: found proof for block 26: 4580
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: found proof for block 27: 46819
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 28: 2077
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Mickey: found proof for block 29: 9051
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Mickey: found proof for block 30: 3505
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: found proof for block 31: 6253
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Mickey: found proof for block 32: 14953
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Mickey: found proof for block 33: 17061
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Mickey: found proof for block 34: 10985
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: found proof for block 35: 10652
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Mickey: found proof for block 36: 1627
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Mickey: found proof for block 37: 27124
+Mickey: cutting over to new chain.
+Minnie: found proof for block 37: 27957
+Minnie: cutting over to new chain.
+Minnie: found proof for block 38: 8195
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Mickey: found proof for block 39: 38088
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Mickey: found proof for block 40: 4432
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: found proof for block 41: 1057
+Minnie: cutting over to new chain.
+Mickey: found proof for block 41: 2839
+Mickey: cutting over to new chain.
+Mickey: found proof for block 42: 21549
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Mickey: found proof for block 43: 7246
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: found proof for block 44: 3826
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 45: 16993
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 46: 4621
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 47: 11789
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 48: 6917
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Mickey: found proof for block 49: 6561
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: found proof for block 50: 26297
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Mickey: found proof for block 51: 5561
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: found proof for block 52: 24747
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 53: 12706
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+
+
+Alice's balance is 192.
+┌─────────┬────────────────────────────────────────────────┬────────┐
+│ (index) │                    address                     │ amount │
+├─────────┼────────────────────────────────────────────────┼────────┤
+│    0    │ 'bNJI2r/t+tcohCVf3Q1wTrhLdBWIkOo6+sIb9FQZDlg=' │  192   │
+│    1    │                 '***TOTAL***'                  │  192   │
+└─────────┴────────────────────────────────────────────────┴────────┘
+
+Bob's balance is 28.
+┌─────────┬────────────────────────────────────────────────┬────────┐
+│ (index) │                    address                     │ amount │
+├─────────┼────────────────────────────────────────────────┼────────┤
+│    0    │ '/VujD4Nvm3n2BWDNBdQO7y0FGQjAfrVIxCDvpBph5Tk=' │   28   │
+│    1    │                 '***TOTAL***'                  │   28   │
+└─────────┴────────────────────────────────────────────────┴────────┘
+
+Charlie's balance is 177.
+┌─────────┬────────────────────────────────────────────────┬────────┐
+│ (index) │                    address                     │ amount │
+├─────────┼────────────────────────────────────────────────┼────────┤
+│    0    │ 'TvywO1Mf+QUxiv8UIlXMcjoMCUkmqiZPg4k+JlGB+IQ=' │   67   │
+│    1    │ 'Psxf1QwdpczLJ5jvnF/vWINqN4jALFGbfMS6mwH3hd0=' │  110   │
+│    2    │                 '***TOTAL***'                  │  177   │
+└─────────┴────────────────────────────────────────────────┴────────┘
+
+Minnie's balance is 726.
+┌─────────┬────────────────────────────────────────────────┬────────┐
+│ (index) │                    address                     │ amount │
+├─────────┼────────────────────────────────────────────────┼────────┤
+│    0    │ 'UL5CtUuu2dK17Nbr9lQLuMfJT7lXQmOPs1uW5xycOkU=' │  200   │
+│    1    │ 'c5raqBMr2ocLZQUIfLsLn+HjiIMf3/iqBDhZr82oBsc=' │   25   │
+│    2    │ 'JFtLqQtPDeAumo+dbmAFqlCjsMJ2VUsIMWqAtyMqQaQ=' │   25   │
+│    3    │ 'KlCpVPGGuxlVucdSaWIyu6fYidhXzrPBaFhAsY10Wcs=' │   25   │
+│    4    │ 'EcquQnUvno5rmbE0oucA9Oq4QpnPv3n8AyT7jezqMH8=' │   25   │
+│    5    │ 'x4+cbpWtNyy3Vt7OnSRWoLp+PuLN+xjLzU+nPog4B2A=' │   0    │
+│    6    │ 'T3payhG+0N6xSbzaU2yjhsIm/X5Zwq1bxd1TAcpKzLM=' │   25   │
+│    7    │ 'SBc6cb4e817fn08J0N8J26KEp7oAz6mj67Ifh9X4Jy8=' │   25   │
+│    8    │ 'p4wEaEoPcRR3qAtYasczU0Zxbl6JZEcq4MirDA3CMSE=' │   25   │
+│    9    │ '2tdlz5fR3MlE5WFgnuFzp8BvmiFiMALkjUgT6LIr4Ec=' │   25   │
+│   10    │ 'A6I/EyYX0K32VuErU44AlDQFycM8BnVNpezmx5/HGHw=' │   25   │
+│   11    │ 'lkGsZ2Hghcsc0febkE69GMLz4CI3oNueScRP01p3bUc=' │   25   │
+│   12    │ 'hyAqGiHUhCAgmhjSFmfJPy+G+9nCSMvqNZZDf1L+tDU=' │   25   │
+│   13    │ 'tVp6M/PA9dnzohfLEyjLMvtsvdIfAKoY6j6im4wq3+c=' │   26   │
+│   14    │ 'MJs9BOofenyWGu4i8r7+rcMZNvLF82rZOEzmnTRI6dk=' │   25   │
+│   15    │ 'JYtWkyxIdawogYVD+4vfC9GMpS3jke8ucdJpbLckwLw=' │   25   │
+│   16    │ 'PBETQYgUDj4vNM6V8Uptnb8tYwVz4iZPKT3re7BYYC4=' │   25   │
+│   17    │ 'isKmtc8BD9vkFE/fKAQbNMo0Ab/8yUJPD+4McbUWzAw=' │   25   │
+│   18    │ '/jLwYunjTEMPdMbsccZYgzhPWvpmwan0J33tCs3b4VU=' │   25   │
+│   19    │ 'eEh+GAtbpQkDghpWO78miZBq1JeQTqar+6SDJBRTrbI=' │   25   │
+│   20    │ '9QBO34yQWu+i6L7kDyGlOlfOwrU7tEr3b/vsMvfNKFU=' │   0    │
+│   21    │ 'Z1tj6hVfVzAWlU1VJFWkZGr5WAS/gvF9uRHmkuRfjyk=' │   25   │
+│   22    │ 'COd2m0l+4XsXPTY7KJgR1a0Y3ZiEjobTzA7F24maQWc=' │   25   │
+│   23    │ 'DRj1WR3U7Lxab9mC3DLuiuqQ4jg51T5ad+l04tPUstg=' │   25   │
+│   24    │ 'O0r3uBacH+zrCS0IRNndg4ZCRb3GMqqLKfXEKbByXJQ=' │   0    │
+│   25    │ 'D/b80ihJquz4wftU94XbfAUe7RJ4hzB3upcZRI2JoZE=' │   0    │
+│   26    │ 'dPrOECt/H77ScYydK4BjC8CJ/uqrIimUE5FI5Vz3WrQ=' │   0    │
+│   27    │ 'dP4d+OJC+ryxoYZkt/sdEzZJVlBpQa0mqbl40h8XIhc=' │   0    │
+│   28    │ '6FjWl7i3YXkSIIXbycDmofnWoraaTZpY3xsgkRF60hY=' │   0    │
+│   29    │ 'WwSuo8Mr+abli0ZRjGBPCcDZUYXP81e/SWeKCl0gfCc=' │   0    │
+│   30    │                 '***TOTAL***'                  │  726   │
+└─────────┴────────────────────────────────────────────────┴────────┘
+
+Mickey's balance is 826.
+┌─────────┬────────────────────────────────────────────────┬────────┐
+│ (index) │                    address                     │ amount │
+├─────────┼────────────────────────────────────────────────┼────────┤
+│    0    │ 'jYAoTcHQcw7g4a2wW3wsPtZcR97BTGIo30UNZvBQl9s=' │  200   │
+│    1    │ 'gSUszgXo6rYf4RcJBM8P1/vqt4exMoz8A3VvD3k2qsY=' │   26   │
+│    2    │ 'bm7F3iXthYQ5uKwpKUcMaOem6kAtp2lNPve5KR7Twk8=' │   25   │
+│    3    │ '0QRnl8eQkt/I8eN6NbWaRdU1QUVBCobrZX8yJyM5hgw=' │   25   │
+│    4    │ 'lrCwR5JVtwNI1DD0WwLOJruR6Fp0KrM0cc60Y8VmfCM=' │   25   │
+│    5    │ '23+940BLtsPwl6o0BV9sHVA796wwfblNuRtWb9SD+Og=' │   25   │
+│    6    │ '1TsISeirG7nAfZxDAozxA11/B9LrDmZjyl8k7F2V/5o=' │   25   │
+│    7    │ '23tidGZ9sx4IpPKNzWo1XaKiKhfkY288Qu0zqoWUGZs=' │   25   │
+│    8    │ 'Y/y0xnKWQCfAY10paDyDwYxKtW4WbbVzpse+1y/7DeM=' │   25   │
+│    9    │ 'KGRO9fmJ/4omtgVdgI7pOXqX53JmKb8Nkj8CRWeQNdg=' │   25   │
+│   10    │ 'TPo2l8/YW6Ei+4bO4xIGdJF8d1zBHkbdYHUZ2SC66zY=' │   25   │
+│   11    │ '2aiQrjO6KzB8iNrhWIjVhRCdz3g0y9wixz6T6gw3wwc=' │   25   │
+│   12    │ 'LPSSvtVcq+gkRp+4SagDqoF0vZHRUZFY/JSZQaoBoe4=' │   25   │
+│   13    │ 'F2szY1YuhtPtHoF3KcxDfF6ic7AxWDmgwmyOXGszK/M=' │   25   │
+│   14    │ 'Ag5qp/qTGMteWM2tKbbBGJwpidtylKF+cn6FYM9kbe0=' │   25   │
+│   15    │ 'eh2Z5UDH3qKKbbnZtqyPCINhMsvXkPojaBUFMaeOtxs=' │   25   │
+│   16    │ 'amppdZiOqFEYkcGYcEsx1gWHslMsY84JGgTXh+o+u+k=' │   25   │
+│   17    │ '/ev2/Y31rcOmcwlFWMdkEitTG3PoGbbC5Svl88j7JAE=' │   25   │
+│   18    │ '/qFl+PZe1k4EBGo00plDGKRCYCYSrU4kTOYhCUHv+Tg=' │   25   │
+│   19    │ 'iWjN63XQ+9hOTgXDrbiUxQk4ZAms6+8UOBr4bTYKbag=' │   25   │
+│   20    │ 'pbqGgMup51SH4dFiqDcngY1NtRdbBR5CGdm6QqNDH5Y=' │   25   │
+│   21    │ 'zEJlgSY8AuVpnA1Os3Ep2U4xI8X+q/A0k9jSpNEjfqo=' │   0    │
+│   22    │ 'pwJU5+Zu5jhM7HaLOjj8jmD6iJsBfUvAYMCoESO33+k=' │   25   │
+│   23    │ 'bTYluV5pBUtoDjxQcf39VmNj5oneMbt1Q+tEyFY+AuI=' │   25   │
+│   24    │ 'p9pYyLycRpRHQPm8L8pIIzTpDevKUsT7MQLwK1m43Bk=' │   25   │
+│   25    │ 'HLpXu8U//b+TfaB/sKEjOuZZ7do+wIP7naVMXPWFdkU=' │   25   │
+│   26    │ '8MMf7JlsoQVBujthhyNW2B4umd5n7ztuJGT3KDvJ1rA=' │   25   │
+│   27    │ 'mV0Zpx2nZdpWFae+hwtbzLdHQOzp4kDmvrKv2RnLn6I=' │   0    │
+│   28    │ 'lgaQcicFsh1+DSaVHP5VjEFFsme7Akh9BEuddu7iwM4=' │   0    │
+│   29    │ 'cnFVprxt1NmSXhtYY651Gieo79OfU3ZD6tGy2zNFUu8=' │   0    │
+│   30    │                 '***TOTAL***'                  │  826   │
+└─────────┴────────────────────────────────────────────────┴────────┘
+
+Showing all UTXOs, unorganized:
+Alice: Showing balances:
+    TvywO1Mf+QUxiv8UIlXMcjoMCUkmqiZPg4k+JlGB+IQ=: 67
+    UL5CtUuu2dK17Nbr9lQLuMfJT7lXQmOPs1uW5xycOkU=: 200
+    jYAoTcHQcw7g4a2wW3wsPtZcR97BTGIo30UNZvBQl9s=: 200
+    bNJI2r/t+tcohCVf3Q1wTrhLdBWIkOo6+sIb9FQZDlg=: 192
+    gSUszgXo6rYf4RcJBM8P1/vqt4exMoz8A3VvD3k2qsY=: 26
+    c5raqBMr2ocLZQUIfLsLn+HjiIMf3/iqBDhZr82oBsc=: 25
+    bm7F3iXthYQ5uKwpKUcMaOem6kAtp2lNPve5KR7Twk8=: 25
+    JFtLqQtPDeAumo+dbmAFqlCjsMJ2VUsIMWqAtyMqQaQ=: 25
+    0QRnl8eQkt/I8eN6NbWaRdU1QUVBCobrZX8yJyM5hgw=: 25
+    KlCpVPGGuxlVucdSaWIyu6fYidhXzrPBaFhAsY10Wcs=: 25
+    EcquQnUvno5rmbE0oucA9Oq4QpnPv3n8AyT7jezqMH8=: 25
+    lrCwR5JVtwNI1DD0WwLOJruR6Fp0KrM0cc60Y8VmfCM=: 25
+    23+940BLtsPwl6o0BV9sHVA796wwfblNuRtWb9SD+Og=: 25
+    1TsISeirG7nAfZxDAozxA11/B9LrDmZjyl8k7F2V/5o=: 25
+    T3payhG+0N6xSbzaU2yjhsIm/X5Zwq1bxd1TAcpKzLM=: 25
+    SBc6cb4e817fn08J0N8J26KEp7oAz6mj67Ifh9X4Jy8=: 25
+    p4wEaEoPcRR3qAtYasczU0Zxbl6JZEcq4MirDA3CMSE=: 25
+    2tdlz5fR3MlE5WFgnuFzp8BvmiFiMALkjUgT6LIr4Ec=: 25
+    23tidGZ9sx4IpPKNzWo1XaKiKhfkY288Qu0zqoWUGZs=: 25
+    Y/y0xnKWQCfAY10paDyDwYxKtW4WbbVzpse+1y/7DeM=: 25
+    KGRO9fmJ/4omtgVdgI7pOXqX53JmKb8Nkj8CRWeQNdg=: 25
+    TPo2l8/YW6Ei+4bO4xIGdJF8d1zBHkbdYHUZ2SC66zY=: 25
+    2aiQrjO6KzB8iNrhWIjVhRCdz3g0y9wixz6T6gw3wwc=: 25
+    A6I/EyYX0K32VuErU44AlDQFycM8BnVNpezmx5/HGHw=: 25
+    lkGsZ2Hghcsc0febkE69GMLz4CI3oNueScRP01p3bUc=: 25
+    LPSSvtVcq+gkRp+4SagDqoF0vZHRUZFY/JSZQaoBoe4=: 25
+    F2szY1YuhtPtHoF3KcxDfF6ic7AxWDmgwmyOXGszK/M=: 25
+    hyAqGiHUhCAgmhjSFmfJPy+G+9nCSMvqNZZDf1L+tDU=: 25
+    Psxf1QwdpczLJ5jvnF/vWINqN4jALFGbfMS6mwH3hd0=: 110
+    /VujD4Nvm3n2BWDNBdQO7y0FGQjAfrVIxCDvpBph5Tk=: 28
+    tVp6M/PA9dnzohfLEyjLMvtsvdIfAKoY6j6im4wq3+c=: 26
+    Ag5qp/qTGMteWM2tKbbBGJwpidtylKF+cn6FYM9kbe0=: 25
+    MJs9BOofenyWGu4i8r7+rcMZNvLF82rZOEzmnTRI6dk=: 25
+    JYtWkyxIdawogYVD+4vfC9GMpS3jke8ucdJpbLckwLw=: 25
+    eh2Z5UDH3qKKbbnZtqyPCINhMsvXkPojaBUFMaeOtxs=: 25
+    amppdZiOqFEYkcGYcEsx1gWHslMsY84JGgTXh+o+u+k=: 25
+    PBETQYgUDj4vNM6V8Uptnb8tYwVz4iZPKT3re7BYYC4=: 25
+    /ev2/Y31rcOmcwlFWMdkEitTG3PoGbbC5Svl88j7JAE=: 25
+    /qFl+PZe1k4EBGo00plDGKRCYCYSrU4kTOYhCUHv+Tg=: 25
+    iWjN63XQ+9hOTgXDrbiUxQk4ZAms6+8UOBr4bTYKbag=: 25
+    isKmtc8BD9vkFE/fKAQbNMo0Ab/8yUJPD+4McbUWzAw=: 25
+    pbqGgMup51SH4dFiqDcngY1NtRdbBR5CGdm6QqNDH5Y=: 25
+    /jLwYunjTEMPdMbsccZYgzhPWvpmwan0J33tCs3b4VU=: 25
+    eEh+GAtbpQkDghpWO78miZBq1JeQTqar+6SDJBRTrbI=: 25
+    pwJU5+Zu5jhM7HaLOjj8jmD6iJsBfUvAYMCoESO33+k=: 25
+    bTYluV5pBUtoDjxQcf39VmNj5oneMbt1Q+tEyFY+AuI=: 25
+    p9pYyLycRpRHQPm8L8pIIzTpDevKUsT7MQLwK1m43Bk=: 25
+    HLpXu8U//b+TfaB/sKEjOuZZ7do+wIP7naVMXPWFdkU=: 25
+    8MMf7JlsoQVBujthhyNW2B4umd5n7ztuJGT3KDvJ1rA=: 25
+    Z1tj6hVfVzAWlU1VJFWkZGr5WAS/gvF9uRHmkuRfjyk=: 25
+    COd2m0l+4XsXPTY7KJgR1a0Y3ZiEjobTzA7F24maQWc=: 25
+    DRj1WR3U7Lxab9mC3DLuiuqQ4jg51T5ad+l04tPUstg=: 25
+
+Minnie's chain length is 54.

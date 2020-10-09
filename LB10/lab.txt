@@ -1,0 +1,26 @@
+In today's lab, we will review the hash-cash algorithm used for proof-of-work (PoW) in Bitcoin.
+
+Download prover.js, utils.js, and driver.js from the course website.
+
+
+Part 1: Verify a proof
+----------------------
+
+First, update the verifyHash function.  Given a string and a proof, verify that concatenating the string and the proof produce the correct number of leading zeroes when hashed.  The hash can be calculated with:
+
+utils.hash(s+proof);
+
+Note that the hash is in hex notation, so a leading 0 actually represents 4 leading 0 bits.  A leading 1 indicates 3 leading 0 bits, a leading 2 or 3 indicate 2 leading 0 bits, a leading 4-7 indicate 1 leading 0 bit, and 8 or more indicate no leading zero bits.
+
+
+For an extra challenge, you can change this approach to set a target number rather than specifying a number of leading zeroes.  If you take this approach, you will need to use JavaScript's BitInteger class.  Use BigInteger has the advantage of performance and flexibility, since the target proof does not have to be an exact power of two.
+
+
+
+Part 2: Find a proof
+--------------------
+Leveraging the verifyProof method, update findProof to return a new proof value.  Set the proof to 0, and then increment until you find an input that gives back the correct number of leading zeroes.  (To make sure your method is consistent with 'verifyProof', it might be a good idea to use 'verifyProof' in your 'findProof' method.)
+
+
+
+When you are finished, paste your prover.js file into Canvas.

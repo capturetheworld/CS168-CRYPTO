@@ -1,0 +1,66 @@
+
+In this homework, you will implement a centralized cryptocurrency patterned after DigiCash -- we will refer to it as DCL, for DigiCash Lite.
+
+As with DigiCash, DCL will rely on blind signatures to ensure the anonymity of the purchaser.
+
+
+Part 1: Implement the bank's sellCoin method
+------------------------------------
+DCL uses a "cut-and-choose" strategy to detect when a purchaser is attempting to cheat the system.  The client will prepare 10 different coins and send the bank the blinded hashes.  The bank will then select one of those coins.  The user will then provide the blinding factors for the other 9 coins.  The bank verifies that the other coin's and their blinding factors are valid, and then finally signs the selected coin blindly.
+
+The client will call the bank's "sellCoin" method to begin the process.  The arguments include the client's account name, the amount that the token should be worth, a list of blinded hashes for different coins created by the user, and a 'response' callback function.
+
+The bank should then:
+1) Verify that the user prepared the right number of coins.
+2) Randomly select a coin.
+3) Call the 'response' callback function with the selected number.
+
+The response function will return a pair of the blinding factors and the matching coins.
+
+***IMPORTANT NOTE!!!  The array of blinding factors and coins should be 'undefined' for the selected coin, or else the anonymity feature of the protocol will be lost.  If the coin is sent, the bank can immediately tie the globally-unique ID (GUID) to the user.  If only the blinding factor is sent, the bank can tie the coin to the purchaser when it is redeemed later.
+
+The bank should validate each of the 9 non-selected coins.  Specifically, the bank should ensure:
+1) The coin matches its blinding factor.  (The 'verifyUnblinded' method of the Coin class should help here).
+2) That each pair of identity strings matches up with the purchaser's identity.  (The leftIdent and rightIdent properties of the coin class are arrays that store this information).
+
+If all coins seem valid, deduct money from the purchaser's account, sign the blinded hash, and return it to the user.
+
+
+
+Part 2: Implement the client's acceptCoin method
+----------------------------------------
+DCL supports offline payments in a manner similar to DigiCash.  While the DCL protocol will not prevent double spending, it will allow the bank to identify the cheater.
+
+When a client accepts a coin from another client, they will randomly select half of the other client's identity string pairs to build up a RIS.  The RIS will be sent to the bank along with the coin when the coin is redeemed.
+
+The accepting client should:
+1) Verify that the bank's signature on the coin is valid.
+2) For each position of the RIS, get either the left or right half of the identity string.
+3) Verify that the hashes (given in the coin's string representation) match the value given.
+
+If the coin looks valid, the client should accept the coin and store the RIS in an 'ris' property of the client.
+
+
+
+Part 3: Implement the bank's redeemCoin method
+--------------------------------------
+When a client attempts to redeem a coin, first verify that the coin has been signed by the bank.  The coin's signature should be stored in a 'signature' property of the coin object.  The signature should match the coin's string representation (which you can get from calling `coin.toString()`).
+
+Every coin should have a GUID stored in its 'guid' property.  If the coin has not been received previously, accept the coin and update the redeemer's balance.
+
+On the other hand, if the coin has been received previously, determine who cheated.  If the coin purchaser cheated, print out the identity of the cheater.  Otherwise, identify the redeemer as the cheater.
+
+As with DigiCash, DCL will use random identity strings (RISs) to identify the cheater.  When accepting a coin, you must keep the RIS to identify cheaters in future double-spend attempts.
+
+
+
+RUBRIC:
+-------
+For a serious attempt, you will receive 5 points.
+
+For each part that you get working correctly, you will earn an additional 5 points.
+
+Please note that the Output must match 'driver.SAMPLE_OUTPUT' exactly, except for the GUIDs of the coins.  You will lose 2 points if you fail to ensure that.
+
+Submit client.js and bank.js only.  Submitting other files will likewise cause you to lose 2 points.
+

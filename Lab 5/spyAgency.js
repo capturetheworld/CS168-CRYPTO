@@ -30,7 +30,7 @@ class SpyAgency {
   // if the blinded document matches the hash and blinding factor.
   verifyContents(blindHash, blindingFactor, originalDoc) {
     if (!originalDoc.match(/^The bearer of this signed document, .*, has full diplomatic immunity.$/)) {
-      return false; //fits pattern of verification
+      return false;
     }
     let h = blindSignatures.messageToHash(originalDoc);
     if (!this.consistent(blindHash, blindingFactor, h)) {

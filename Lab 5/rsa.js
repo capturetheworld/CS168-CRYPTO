@@ -21,17 +21,16 @@ function verify(message, sig, pubKey) {
   return m === message;
 }
 
-function blind(message,pubKey){
-	let blindedmessage = message * blindingFactor**pubKey.e % pubKey.modulus;
-  return blindedmessage;
-
+function blind(message, blindingFactor, pubKey) {
+ let m1 = message * blindingFactor**pubKey.e % pubKey.modulus;
+ return m1;
 }
 
-function unblind(s_prime,pubKey){
-	let signed = modDivide(blindSig, blindingFactor, pubKey.modulus);
-  return signed;
-
+function unblind(blindSig, blindingFactor, pubKey) {
+  let sig = modDivide(blindSig, blindingFactor, pubKey.modulus);
+  return sig;
 }
+
 // Setting up key pair
 let mod = 33;
 let pub = { modulus: mod, e: 3 };

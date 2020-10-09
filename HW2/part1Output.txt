@@ -1,0 +1,127 @@
+Starting simulation.  This may take a moment...
+Initial balances:
+
+Alice's balance is 233.
+Bob's balance is 99.
+Charlie's balance is 67.
+
+Ulysses's total balance is 10.
+┌─────────┬────────────────────────────────────────────────┬────────┐
+│ (index) │                    address                     │ amount │
+├─────────┼────────────────────────────────────────────────┼────────┤
+│    0    │ '3y2xaKNCP8lqlPyhQf4CeUEtTAEVi86s/w/4TZbD634=' │   10   │
+│    1    │                 '***TOTAL***'                  │   10   │
+└─────────┴────────────────────────────────────────────────┴────────┘
+
+Showing all UTXOs for ${client.name}
+Alice: Showing balances:
+    xSGGNPJTYIZN/ANkY6/GPb6QNXNYQJaN8UYw0qUjIjk=: 233
+    tck3F7jKl4GT8/xUxHN/Evl5+0r5FX92d15MUcZJ1CU=: 99
+    RHnveBWFtqKDSxpWIFkrwakoe0d2UTPBNxbYhY6VPoc=: 67
+    3y2xaKNCP8lqlPyhQf4CeUEtTAEVi86s/w/4TZbD634=: 10
+    lFNRmEw8Q5X5ohhYh/k0EOVpQlRJIxTXXMmbxxeY7iA=: 200
+    wrbmAyRksjCGNWfYmI/FwM/OVlPTNA754DKxo0NV8OM=: 200
+
+***Alice is transferring 40 gold to Ulysses at address RkYPAZIavt7nHFakNvpzvJjtudtR3sxYeO94AKrR0X0=
+
+Minnie: found proof for block 1: 6742
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Mickey: Replayed transaction f8ac262ff0333d7e3ca28e3394e7e8f54d148127cc4cd5ddade856dd7a95e15d.
+Minnie: found proof for block 2: 22365
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 3: 19180
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Mickey: found proof for block 4: 32452
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: found proof for block 5: 15263
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Mickey: found proof for block 6: 19308
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: found proof for block 7: 8767
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 8: 20759
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 9: 1946
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+
+***Alice is transferring 30 gold to Ulysses at address GOjQ0Efrv8aWNJkiY/55XZ39miqSfnyDT+jlC3AWdtc=
+
+Minnie: found proof for block 10: 24454
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Mickey: Replayed transaction 328f8d5d02c8fd62f79bdbff63fd62f32689e99feb57038dd711da2be01b7a43.
+Mickey: found proof for block 11: 3100
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: found proof for block 12: 751
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Mickey: found proof for block 13: 8896
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: found proof for block 14: 27693
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Mickey: found proof for block 15: 1041
+Mickey: cutting over to new chain.
+Minnie: found proof for block 15: 2876
+Minnie: cutting over to new chain.
+Minnie: found proof for block 16: 8552
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 17: 9195
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 18: 20263
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 19: 33949
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 20: 28273
+Minnie: cutting over to new chain.
+Mickey: cutting over to new chain.
+Minnie: found proof for block 21: 47093
+Minnie: cutting over to new chain.
+Mickey: found proof for block 21: 47747
+Mickey: cutting over to new chain.
+Mickey: found proof for block 22: 16857
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: found proof for block 23: 28742
+Minnie: cutting over to new chain.
+
+
+Alice's balance is 161.
+Bob's balance is 99.
+Charlie's balance is 67.
+
+Ulysses's total balance is 80.
+┌─────────┬────────────────────────────────────────────────┬────────┐
+│ (index) │                    address                     │ amount │
+├─────────┼────────────────────────────────────────────────┼────────┤
+│    0    │ '3y2xaKNCP8lqlPyhQf4CeUEtTAEVi86s/w/4TZbD634=' │   10   │
+│    1    │ 'RkYPAZIavt7nHFakNvpzvJjtudtR3sxYeO94AKrR0X0=' │   40   │
+│    2    │ 'GOjQ0Efrv8aWNJkiY/55XZ39miqSfnyDT+jlC3AWdtc=' │   30   │
+│    3    │                 '***TOTAL***'                  │   80   │
+└─────────┴────────────────────────────────────────────────┴────────┘
+
+Showing all UTXOs for ${client.name}
+Alice: Showing balances:
+    xSGGNPJTYIZN/ANkY6/GPb6QNXNYQJaN8UYw0qUjIjk=: 161
+    tck3F7jKl4GT8/xUxHN/Evl5+0r5FX92d15MUcZJ1CU=: 99
+    RHnveBWFtqKDSxpWIFkrwakoe0d2UTPBNxbYhY6VPoc=: 67
+    3y2xaKNCP8lqlPyhQf4CeUEtTAEVi86s/w/4TZbD634=: 10
+    lFNRmEw8Q5X5ohhYh/k0EOVpQlRJIxTXXMmbxxeY7iA=: 477
+    wrbmAyRksjCGNWfYmI/FwM/OVlPTNA754DKxo0NV8OM=: 300
+    RkYPAZIavt7nHFakNvpzvJjtudtR3sxYeO94AKrR0X0=: 40
+    GOjQ0Efrv8aWNJkiY/55XZ39miqSfnyDT+jlC3AWdtc=: 30
