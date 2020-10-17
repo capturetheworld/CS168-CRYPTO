@@ -20,6 +20,7 @@ module.exports = {
 
     // Adding initial balance to wallet.
     this.wallet.push({ address: this.address, keyPair: this.keyPair });
+   
   },
 
   /**
@@ -29,10 +30,17 @@ module.exports = {
   getConfirmedBalance: function() {
     // Go through all addresses and get the balances according to
     // the last confirmed block, then return the total.
-
+    let tally = 0;
     //
     // **YOUR CODE HERE**
     //
+
+    for(let kp in this.wallet){
+      tally += this.lastConfirmedBlock.balanceOf(this.wallet[kp].address);
+     // console.log("!!!!!!!!!!!!!!!!!!!!!!!" + kp.address);
+    }
+
+    return tally;
 
   },
 
@@ -44,11 +52,15 @@ module.exports = {
   createAddress: function() {
     // Create a new keypair, derive the address from the public key,
     // add these details to the wallet, and return the address.
-    this.wallet.push()
+   
     //
     // **YOUR CODE HERE**
     //
+    let newKeypair  = utils.generateKeypair();
+    let newAddress = utils.calcAddress(newKeypair.public);
+    this.wallet.push({address: newAddress, keyPair: newKeypair});
 
+    return newAddress;
   },
 
   /**
@@ -86,24 +98,76 @@ module.exports = {
    */
   postTransaction: function(outputs, fee=Blockchain.DEFAULT_TX_FEE) {
 
-    // Calculate the total value of gold needed and make sure the client has sufficient gold.
+    // Calculate the total value of gold needed and m
     //
+    let totalPayments = 0;
+
+    for(let outputindex in outputs){
+      totalPayments = totalPayments + outputs[outputindex].amount;
+    }
+
+    totalPayments += fee; //tacks on the fee
+
+    //make sure the client has sufficient gold.
+    if(totalPayments > this.availableGold){
+      throw new Error(`Requested ${totalPayments}, but account only has ${this.availableGold}.`);
+    }
+
+
     // If they do, gather up UTXOs from the wallet (starting with the oldest) until the total
-    // value of the UTXOs meets or exceeds the gold required.
+    let utxosum = 0;
+
+    let storePrivKeys = [];
+    let storePubKeys = [];
+    let storeFromAddr = [];
+
+
+    for(let utxo in this.wallet){
+      if(utxosum >= totalPayments){     // value of the UTXOs meets or exceeds the gold required.
+        break;
+      }
+      else{
+        //add to the sum
+        utxosum += this.lastConfirmedBlock.balances.get(this.wallet[utxo].address);
+        
+        //store the keys
+        storePrivKeys.push(this.wallet[utxo].keyPair.private);
+        storePubKeys.push(this.wallet[utxo].keyPair.public);
+
+       
+
+        //store the address
+        storeFromAddr.push(this.wallet[utxo].address);
+
+      }
+      
+    
+
+
+
     //
     // Determine by how much the collected UTXOs exceed the total needed.
+
+    let difference = 0
+    difference = utxosum - totalPayments;
     // Create a new address to receive this "change" and add it to the list of outputs.
+    outputs.push({"amount":difference,"address":this.createAddress()});
     //
     // Call `Blockchain.makeTransaction`, noting that 'from' and 'pubKey' are arrays
+
+    let tx = Blockchain.makeTransaction({
+      from: storeFromAddr,
+      nonce: 0,
+      pubKey: storePubKeys,
+      outputs: outputs,
+      fee: fee,
+    });
     // instead of single values.  The nonce field is not needed, so set it to '0'.
     //
     // Once the transaction is created, sign it with all private keys for the UTXOs used.
-    // The order that you call the 'sign' method must match the order of the from and pubKey fields.
-
-
-    //
-    // **YOUR CODE HERE**
-    //
+  for(let privKey in storePrivKeys){
+    tx.sign(storePrivKeys[privKey]);
+  }
 
 
 
@@ -118,6 +182,7 @@ module.exports = {
     }
 
     return tx;
-  },
+  }
  
+}
 }

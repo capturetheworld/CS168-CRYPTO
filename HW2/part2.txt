@@ -1,0 +1,69 @@
+In part 2 and 3, we will build on your code from part 1 to implement the full UTXO model in SpartanGold.  Please note that this part of the assignment is substantially more difficult than the first part, as reflected in the total points for the assignments.
+
+ 
+
+Part 2 (20 points)
+
+For part 2, add the ability to post a transaction. Download utxo-transaction.js, utxo-block.js, and utxo-miner.js from the course website. If you run into challenges, review the parent classes (available at https://github.com/taustin/spartan-gold/ (Links to an external site.)) for tips.
+
+UtxoTransaction differs from Transaction in that the 'from', 'pubKey', and 'sig' fields are all arrays.
+
+Implement the following methods in this class:
+
+totalInput(block) -- Using the specified block, gather the total amount of gold available from all specified input addresses.
+
+verifySignature() -- Going through the this.from, this.address, and this.sig arrays, return true if all are valid. (Details in code comments.)
+
+UtxoBlock overrides the addTransaction method to handle UtxoTransaction. Review the comments in the code and implement this method.
+
+
+UtxoMiner overrides the startNewSearch method. If the miner found a proof for the previous block, or if there is already some gold associated with the 'address' field, the miner needs to create a new address and store it in the 'address' field of the class.
+
+
+
+Finally, update your utxo-mixin.js to implement the postTransaction method. Details are in the code's comments, but the postTransaction method from https://github.com/taustin/spartan-gold/blob/master/client.js (Links to an external site.) may offer some tips.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Once all of these parts are completed, run part2.js. In this example, Alice gives some gold to Bob. Once this transaction is complete, Bob should have a total of 139 gold in two different UTXOs (one for 99, another for the 40 he received from Alice).
+
+Bob then uses both of those UTXOs pay Charlie 110 gold. At the end of this simulation, Charlie should have 177 gold stored in two different addresses.
+
+Compare your results to part2Result.txt. Again, the addresses and the miner's balances might differ from this sample run, but Alice, Bob, and Charlie should have the same UTXOs.
+
+ 
+
+Part 3 (5 points)
+
+Now that you have the UTXO model working, download tcpMiner.js from the course website and update it to use your new code.
+
+First, change TcpMiner to extend UtxoMiner rather than Miner.
+
+Next, update the call to Blockchain.makeGenesis to specify the UtxoBlock and UtxoTransaction classes.
+
+Add 2 new menu options:
+
+"create new (a)ddress?" should generate a new address and update the address displayed in the interface.
+"show my (U)TXOs?" should call the miner's showAllUTXOs() method, displaying a table of the miner's UTXOs.
+Verify that you can successfully create a new address and successfully transfer multiple UTXOs to it in a single transaction.
+
+ 
+
+Submission
+
+Upload a zip file containing:
+
+utxo-block.js
+utxo-transaction.js
+utxo-miner.js
+utxo-mixin.js
+tcpMiner.js
+All files should be at the top level of the zip file.  No other files should be included.
+
+If the zip file is improperly structured, you will lose two points.
+
+If the zip file is malformed/can't be unzipped, you get a 0 for the assignment, so please check your submission carefully.
+
+ 
+

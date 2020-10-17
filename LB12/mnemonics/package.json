@@ -1,0 +1,15 @@
+{
+  "name": "mnemonics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mnemonics.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Ian",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}

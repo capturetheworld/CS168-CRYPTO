@@ -49,9 +49,11 @@ module.exports = class UtxoMiner extends Miner {
     // the miner's current address, and to make sure that the address does not already
     // have a balance of gold associated with it.
 
-    //
-    // **YOUR CODE HERE**
-    //
+    if(this.address === this.lastBlock.rewardAddr  || (typeof this.lastBlock.balances.get(this.address) !== 'undefined')){
+      this.address = this.createAddress();
+    }
+
+ 
 
 
     super.startNewSearch(...args);

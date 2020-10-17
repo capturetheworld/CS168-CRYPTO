@@ -1,3 +1,8 @@
+buffer.alloc(n) creates a buffer of n bytes
+buffer.from(d) creats a buffer fit the data d
+buff.writeUInt8(b,p) writes byte b to position p of buff
+buff.readUInt8(p) reads byte from position p of buff
+
 
 In this lab, we will explore the use mnemonics for generating deterministic wallets.  We will also look at how to create npm modules and how to use mocha and chai for unit testing.
 

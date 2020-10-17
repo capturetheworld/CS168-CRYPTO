@@ -35,12 +35,29 @@ module.exports = class UtxoBlock extends Block {
       return false;
     }
 
-    // If the transaction is valid, add it to the block, delete
-    // all accounts used as inputs from the current balances, and update
-    // the balances of the accounts receiving the gold.
-    //
-    // If everything succeeds, return 'true'
 
+
+    // If the transaction is valid, add it to the block, delete
+
+    // Adding the transaction to the block
+    this.transactions.set(tx.id, tx);   
+
+    // delete all accounts used as inputs from the current balances, 
+    for(let accountindex in tx.from){
+      this.balances.delete(tx.from[accountindex]);
+      console.log('**Deleting ' + tx.from[accountindex]);
+    }
+    console.log('\n');
+    // and update the balances of the accounts receiving the gold.
+
+    for(let outputindex in tx.outputs){
+      this.balances.set(tx.outputs[outputindex].address,tx.outputs[outputindex].amount);
+
+      console.log('***Giving '+tx.outputs[outputindex].amount+' to '+tx.outputs[outputindex].address);
+    }
+    
+    // If everything succeeds, return 'true'
+    return true;
     //
     // **YOUR CODE HERE**
     //
