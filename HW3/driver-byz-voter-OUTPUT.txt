@@ -1,0 +1,32 @@
+Starting simulation.  This may take a moment...
+Initial balances:
+Alice has 233 gold.
+Bob has 99 gold.
+Charlie has 67 gold.
+Minnie has 400 gold.
+Mickey has 300 gold.
+Goofy has 200 gold.
+Donald has 500 gold.
+Maleficent has 500 gold.
+Alice is transferring 40 gold to 4O6NE6f3IAXv0WiAa7spdjTjSBIuVWSgRifouiuI96w=
+Minnie: The block proposer for 1-1 is hYLaRIAT5l3F4DpxiEnXvcRsQmi45nPj6ihwLlM3/5U=
+Minnie: Proposing block c17999df37c05102de3879ae25c4f97ab464a10d197a3dc7054253c4e2a84825 for round 1-1.
+Mickey: The block proposer for 1-1 is hYLaRIAT5l3F4DpxiEnXvcRsQmi45nPj6ihwLlM3/5U=
+Goofy: The block proposer for 1-1 is hYLaRIAT5l3F4DpxiEnXvcRsQmi45nPj6ihwLlM3/5U=
+Maleficent: The block proposer for 1-1 is hYLaRIAT5l3F4DpxiEnXvcRsQmi45nPj6ihwLlM3/5U=
+/Users/taustin/classes/cs168/hw/hw3-proofOfDeposit/validator.js:525
+    throw new Error(`
+    ^
+
+Error: 
+      Possible Byzantine behavior by 2NI4Ib8Ugm1M+LE1s5GJgXzaH8XxZI9kmAY9ri1Suts=.
+      Received conflicting messages:
+      -> {"from":"2NI4Ib8Ugm1M+LE1s5GJgXzaH8XxZI9kmAY9ri1Suts=","height":1,"round":1,"type":"PREVOTE","blockID":"c17999df37c05102de3879ae25c4f97ab464a10d197a3dc7054253c4e2a84825","pubKey":"-----BEGIN PUBLIC KEY-----\nMFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAMRhGd8SkDIlhFzvrbd5M6sBZ0+mMsyM\nd0QclaZnYbczh4dA/J/OI4hDTSxpJrmk2SRk7V1bPDuaraw6gOfXfa0CAwEAAQ==\n-----END PUBLIC KEY-----\n","sig":"17c2a2f8ccdad91d479702fb3d39ec8e5caac16f3c218c4f60cdcf6266acabedc25ddbd2fc1ccd0b875be107f8fc4d71431e5fadd24ce36dcb4caffe6554e504"}
+      -> {"from":"2NI4Ib8Ugm1M+LE1s5GJgXzaH8XxZI9kmAY9ri1Suts=","height":1,"round":1,"type":"PREVOTE","blockID":"NIL","pubKey":"-----BEGIN PUBLIC KEY-----\nMFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAMRhGd8SkDIlhFzvrbd5M6sBZ0+mMsyM\nd0QclaZnYbczh4dA/J/OI4hDTSxpJrmk2SRk7V1bPDuaraw6gOfXfa0CAwEAAQ==\n-----END PUBLIC KEY-----\n","sig":"046d323dc8a82656d69380ed1795d97fc8cd4db96012feb87d44f5d0525968a2de26bdb080c494da485e8fd96f63af777e13bdd4c2b96d2710c57ecdd2b8e94c"}
+    at Validator.postEvidenceTransaction (/Users/taustin/classes/cs168/hw/hw3-proofOfDeposit/validator.js:525:11)
+    at Validator.verifyAndVote (/Users/taustin/classes/cs168/hw/hw3-proofOfDeposit/validator.js:107:14)
+    at Validator.collectPrevote (/Users/taustin/classes/cs168/hw/hw3-proofOfDeposit/validator.js:364:10)
+    at Validator.emit (events.js:314:20)
+    at Timeout._onTimeout (/Users/taustin/classes/cs168/hw/hw3-proofOfDeposit/unreliable-net.js:48:31)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)

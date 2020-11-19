@@ -1,0 +1,330 @@
+Starting simulation.  This may take a moment...
+Initial balances:
+Alice has 233 gold.
+Bob has 99 gold.
+Charlie has 67 gold.
+Minnie has 400 gold.
+Mickey has 300 gold.
+Goofy has 200 gold.
+Donald has 500 gold.
+Alice is transferring 40 gold to 7qdEN5pj8alo0xyHQf88XM5mWwmZxu5aLsJILoeLMwE=
+Minnie: The block proposer for 1-1 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Minnie: Proposing block f41f16c981ab27f812242766543ce23242f902017ea1eb962438820536c8f9f1 for round 1-1.
+Mickey: The block proposer for 1-1 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Goofy: The block proposer for 1-1 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Minnie: The block proposer for 1-2 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: The block proposer for 1-2 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: Proposing block b65e9a7d05368e8ee4e74530c61161f16f97d91c6dae13eaabb5f928f1f573a8 for round 1-2.
+Goofy: The block proposer for 1-2 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Goofy: Ignoring stale PREVOTE vote 6efb30a1ff2f1a789feea4629d28848ace16d5836ec13dcbb231489412c33fd8: round 1 vs. 2
+Minnie: The block proposer for 1-3 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Minnie: Proposing block e7aa75322d309a930d79c80e596c84ac9db66f1eddfa3db760ce1be4b41853a7 for round 1-3.
+Mickey: The block proposer for 1-3 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Goofy: The block proposer for 1-3 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Minnie: Locking on to block e7aa75322d309a930d79c80e596c84ac9db66f1eddfa3db760ce1be4b41853a7
+Mickey: Locking on to block e7aa75322d309a930d79c80e596c84ac9db66f1eddfa3db760ce1be4b41853a7
+Goofy: Locking on to block e7aa75322d309a930d79c80e596c84ac9db66f1eddfa3db760ce1be4b41853a7
+Minnie: Committing to block e7aa75322d309a930d79c80e596c84ac9db66f1eddfa3db760ce1be4b41853a7
+Mickey: Committing to block e7aa75322d309a930d79c80e596c84ac9db66f1eddfa3db760ce1be4b41853a7
+Goofy: Committing to block e7aa75322d309a930d79c80e596c84ac9db66f1eddfa3db760ce1be4b41853a7
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 2-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: cutting over to new chain.
+Mickey: The block proposer for 2-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: Proposing block fc1bd16dba042495b5716d0534f532324738a2a022a213ce01bd18a8d5424d24 for round 2-1.
+Goofy: cutting over to new chain.
+Goofy: The block proposer for 2-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Minnie: The block proposer for 2-2 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Minnie: Proposing block ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc for round 2-2.
+Mickey: The block proposer for 2-2 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Goofy: The block proposer for 2-2 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Goofy: Ignoring stale PREVOTE vote 9ffed7398095ba712662cb3a8c2d5bbd37f0f1cc13b43e6604c069d652ab17fb: round 1 vs. 2
+Goofy: Ignoring stale PREVOTE vote bba8a32cbf7972cc26f52fbf0154a9ec4fdda073009fc68a74b95fd0f3afd732: round 1 vs. 2
+Minnie: Locking on to block ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc
+Mickey: Locking on to block ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc
+Mickey: Committing to block ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc
+Minnie: The block proposer for 2-3 is /g5IgN1ovHGBQjkUwQgA+VqavLf4VZblLtomSdj9joY=
+Goofy: The block proposer for 2-3 is /g5IgN1ovHGBQjkUwQgA+VqavLf4VZblLtomSdj9joY=
+Goofy: Replayed transaction 21b709f9d080172cad57d83dd42da5bb1be8d64cbebf82cd5f1b02e4c9913478.
+Goofy: Proposing block 2c66126d0ee25f9daea24bdb41f5e35faeb0f84a13272442109cf720c10693cb for round 2-3.
+Minnie: Ignoring stale PRECOMMIT vote 0b7a43d4e355ccf1d05c9858ce2fcefc672a775b9221581729d336b5be5ead9c: round 2 vs. 3
+Goofy: Ignoring stale PRECOMMIT vote 0b7a43d4e355ccf1d05c9858ce2fcefc672a775b9221581729d336b5be5ead9c: round 2 vs. 3
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Minnie: The block proposer for 2-4 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Goofy: The block proposer for 2-4 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Minnie: Locking on to block ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc
+Goofy: Locking on to block ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Minnie: Committing to block ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc
+Goofy: Committing to block ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc
+Mickey: No consensus on ccc243d087d6751769b7e9ad3697e3660d9c200abd803fdc609747dedb76fdbc (2-2) yet.  Waiting...
+Mickey: cutting over to new chain.
+Mickey: The block proposer for 3-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: Proposing block dd0e3f6d5b8d8c030b06717811bbfe4600fddf508d7d6c4c1dc2ac317da0985b for round 3-1.
+Goofy: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 3-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Goofy: The block proposer for 3-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: The block proposer for 3-2 is /g5IgN1ovHGBQjkUwQgA+VqavLf4VZblLtomSdj9joY=
+Mickey: Ignoring stale PREVOTE vote 70bb168f14160a48bbec62c16afe83ffd1e09ea22a2d44da11d595fdaacb1a8f: round 1 vs. 2
+Mickey: Ignoring stale PREVOTE vote f82a634d014f0249fce766bf6ab3016de2a0534ff7dc6d3d8829b7129dd4c6d8: round 1 vs. 2
+Minnie: The block proposer for 3-2 is /g5IgN1ovHGBQjkUwQgA+VqavLf4VZblLtomSdj9joY=
+Goofy: The block proposer for 3-2 is /g5IgN1ovHGBQjkUwQgA+VqavLf4VZblLtomSdj9joY=
+Goofy: Proposing block 34365009183e5835cee361cbd9cada89639a82d6349074df8ef306391fe05be7 for round 3-2.
+Minnie: Ignoring stale PREVOTE vote f82a634d014f0249fce766bf6ab3016de2a0534ff7dc6d3d8829b7129dd4c6d8: round 1 vs. 2
+Mickey: Ignoring stale PREVOTE vote d55bec36ba5dd1587a7af7647770f3accbcee3bb44f89e3f4138138686eee3f4: round 1 vs. 2
+Minnie: Ignoring stale PREVOTE vote d55bec36ba5dd1587a7af7647770f3accbcee3bb44f89e3f4138138686eee3f4: round 1 vs. 2
+Goofy: Ignoring stale PREVOTE vote d55bec36ba5dd1587a7af7647770f3accbcee3bb44f89e3f4138138686eee3f4: round 1 vs. 2
+Mickey: The block proposer for 3-3 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Mickey: Ignoring stale PREVOTE vote cecb27c3f57c13beebd503c2911a9a469ef7f6eca629cb96da5ec5559bb17136: round 2 vs. 3
+Mickey: Ignoring stale PREVOTE vote 83633bd64ac54115350ff42dec4e59c342f42c308eaa1d2bb7e5dc3b1abce060: round 2 vs. 3
+Minnie: The block proposer for 3-3 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Minnie: Proposing block fa221cae0e8c551a55d1992dce2f2385578369cd5622302366e1093d17798ffe for round 3-3.
+Goofy: The block proposer for 3-3 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Minnie: Locking on to block fa221cae0e8c551a55d1992dce2f2385578369cd5622302366e1093d17798ffe
+Goofy: Locking on to block fa221cae0e8c551a55d1992dce2f2385578369cd5622302366e1093d17798ffe
+Mickey: The block proposer for 3-4 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: Proposing block 2771d8d64ef46bc9930a5521a31d7e76c344587bcfe74a4d63733ab8f017973c for round 3-4.
+Mickey: Ignoring stale PRECOMMIT vote 9567ca0faf07f8626efaf51f5aeb87899a90d43c5096a010ba65d93fa90d8c45: round 3 vs. 4
+Mickey: Ignoring stale PRECOMMIT vote a5406cc23933bf1f0f8d8ae9a578533c0482bccc40f27f9d6c7ada397e5e8f01: round 3 vs. 4
+Minnie: Committing to block fa221cae0e8c551a55d1992dce2f2385578369cd5622302366e1093d17798ffe
+Goofy: Committing to block fa221cae0e8c551a55d1992dce2f2385578369cd5622302366e1093d17798ffe
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 4-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Goofy: cutting over to new chain.
+Goofy: The block proposer for 4-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: cutting over to new chain.
+Mickey: The block proposer for 4-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: Proposing block 1a42b315cb1af98069d89b9c80fb1fbb62ed6b4ce4ae8287f11b60b58aa21cda for round 4-1.
+Minnie: The block proposer for 4-2 is /g5IgN1ovHGBQjkUwQgA+VqavLf4VZblLtomSdj9joY=
+Goofy: The block proposer for 4-2 is /g5IgN1ovHGBQjkUwQgA+VqavLf4VZblLtomSdj9joY=
+Goofy: Proposing block cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f for round 4-2.
+Mickey: The block proposer for 4-2 is /g5IgN1ovHGBQjkUwQgA+VqavLf4VZblLtomSdj9joY=
+Minnie: Ignoring stale PREVOTE vote 299ca60b65a971afe57eaf124d014b443072f6976385f95df03d33fe86554c89: round 1 vs. 2
+Minnie: Locking on to block cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f
+Mickey: Locking on to block cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f
+Minnie: The block proposer for 4-3 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Goofy: The block proposer for 4-3 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Goofy: Ignoring stale PRECOMMIT vote bc5eb400acff34c30a4184c2e8e1ddf18303e194ec879e1050dfb41ca77d84c9: round 2 vs. 3
+Minnie: Ignoring stale PRECOMMIT vote bc5eb400acff34c30a4184c2e8e1ddf18303e194ec879e1050dfb41ca77d84c9: round 2 vs. 3
+Mickey: Committing to block cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Minnie: The block proposer for 4-4 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Goofy: The block proposer for 4-4 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Minnie: Locking on to block cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f
+Goofy: Locking on to block cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Minnie: Committing to block cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f
+Goofy: Committing to block cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Mickey: No consensus on cd981e1e9b099070e2cf5c86a1d2c8ecdb61939e8a7a7a236de3a219f659f79f (4-2) yet.  Waiting...
+Mickey: cutting over to new chain.
+Mickey: The block proposer for 5-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: Proposing block cd53114fadd33908f300597aca4dbdd89ad63fdaf9639dfb18cf5d73001aaeda for round 5-1.
+Goofy: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 5-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Goofy: The block proposer for 5-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: The block proposer for 5-2 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: Proposing block 24e1e8fadda079d94685b1cc0b3d4771d7cc37da485d89c620cb99610accba67 for round 5-2.
+Mickey: Ignoring stale PREVOTE vote ad6b64a2506428df4c19ed4f6002febee9dcca50701ea74808b2f5187d516158: round 1 vs. 2
+Mickey: Ignoring stale PREVOTE vote 443281fceeb747ec40c355dc7610125798f5c8c366aaddfd032802e92cce198a: round 1 vs. 2
+Minnie: The block proposer for 5-2 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Goofy: The block proposer for 5-2 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Minnie: Ignoring stale PREVOTE vote 443281fceeb747ec40c355dc7610125798f5c8c366aaddfd032802e92cce198a: round 1 vs. 2
+Goofy: Ignoring stale PREVOTE vote 443281fceeb747ec40c355dc7610125798f5c8c366aaddfd032802e92cce198a: round 1 vs. 2
+Goofy: Ignoring stale PREVOTE vote ad6b64a2506428df4c19ed4f6002febee9dcca50701ea74808b2f5187d516158: round 1 vs. 2
+Minnie: Locking on to block 24e1e8fadda079d94685b1cc0b3d4771d7cc37da485d89c620cb99610accba67
+Mickey: The block proposer for 5-3 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Mickey: Ignoring stale PRECOMMIT vote 53825bfdd738f8c3b862df0c9891284b8c2220a2f679a3d096c28ff4079e6b65: round 2 vs. 3
+Minnie: The block proposer for 5-3 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Goofy: The block proposer for 5-3 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Minnie: Locking on to block 24e1e8fadda079d94685b1cc0b3d4771d7cc37da485d89c620cb99610accba67
+Goofy: Locking on to block 24e1e8fadda079d94685b1cc0b3d4771d7cc37da485d89c620cb99610accba67
+Mickey: Committing to block 24e1e8fadda079d94685b1cc0b3d4771d7cc37da485d89c620cb99610accba67
+Minnie: Committing to block 24e1e8fadda079d94685b1cc0b3d4771d7cc37da485d89c620cb99610accba67
+Goofy: Committing to block 24e1e8fadda079d94685b1cc0b3d4771d7cc37da485d89c620cb99610accba67
+Mickey: No consensus on 24e1e8fadda079d94685b1cc0b3d4771d7cc37da485d89c620cb99610accba67 (5-3) yet.  Waiting...
+Mickey: cutting over to new chain.
+Mickey: The block proposer for 6-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: Proposing block 84c63df568a0f12d1a87a6badca6d9397dc7ec0b0806429675af9465cb606aa7 for round 6-1.
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 6-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Goofy: cutting over to new chain.
+Goofy: The block proposer for 6-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: The block proposer for 6-2 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Minnie: The block proposer for 6-2 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Minnie: Proposing block 23bf552084d198a51010a9b225f556435857ca54da9e4a5e4ce9d3b1effa7747 for round 6-2.
+Goofy: The block proposer for 6-2 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Goofy: Ignoring stale PREVOTE vote dc371d22f0cbfaf44d8293550c8077d6954521f84486054bb44c83c864be6265: round 1 vs. 2
+Goofy: Ignoring stale PREVOTE vote 35e00351bf6da6248123e77096c5366aeb1adb112efa4302251b121cad71488b: round 1 vs. 2
+Mickey: Ignoring stale PREVOTE vote dc371d22f0cbfaf44d8293550c8077d6954521f84486054bb44c83c864be6265: round 1 vs. 2
+Mickey: Ignoring stale PREVOTE vote 35e00351bf6da6248123e77096c5366aeb1adb112efa4302251b121cad71488b: round 1 vs. 2
+Mickey: Locking on to block 23bf552084d198a51010a9b225f556435857ca54da9e4a5e4ce9d3b1effa7747
+Minnie: Locking on to block 23bf552084d198a51010a9b225f556435857ca54da9e4a5e4ce9d3b1effa7747
+Mickey: The block proposer for 6-3 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Minnie: Committing to block 23bf552084d198a51010a9b225f556435857ca54da9e4a5e4ce9d3b1effa7747
+Goofy: Committing to block 23bf552084d198a51010a9b225f556435857ca54da9e4a5e4ce9d3b1effa7747
+Mickey: Ignoring stale PRECOMMIT vote 5b75adc28f914239a61de669a3c863562757b7873dfc7150072bc71e1bdb02fd: round 2 vs. 3
+Minnie: No consensus on 23bf552084d198a51010a9b225f556435857ca54da9e4a5e4ce9d3b1effa7747 (6-2) yet.  Waiting...
+Goofy: cutting over to new chain.
+Goofy: The block proposer for 7-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 7-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: The block proposer for 6-4 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: Ignoring stale PREVOTE vote 4e09aa96f7a7fa6767c753bd8a66ff14cb1700598150cbcea102c08ae72da335: round 1 vs. 4
+Mickey: cutting over to new chain.
+Goofy: The block proposer for 7-2 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Minnie: The block proposer for 7-2 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Minnie: Proposing block a07d260d2ba7abe01a241ca200d635603c2a4bb85c57dc542ca26d9139f7daab for round 7-2.
+Mickey: The block proposer for 7-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Minnie: Ignoring stale PREVOTE vote dee8c22c740e8b109b5e4394940f94c0101403a1183447479368932060ce145d: round 0 vs. 2
+Goofy: Ignoring stale PREVOTE vote dee8c22c740e8b109b5e4394940f94c0101403a1183447479368932060ce145d: round 0 vs. 2
+Goofy: Ignoring stale PREVOTE vote 2cb27650122bd963f86f05b70a37a9a3634c64cfaf9811bfd0bdb475474e8115: round 1 vs. 2
+Mickey: Ignoring stale PREVOTE vote dee8c22c740e8b109b5e4394940f94c0101403a1183447479368932060ce145d: round 0 vs. 1
+Minnie: Ignoring stale PREVOTE vote 2cb27650122bd963f86f05b70a37a9a3634c64cfaf9811bfd0bdb475474e8115: round 1 vs. 2
+Mickey: The block proposer for 7-2 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Goofy: The block proposer for 7-3 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Minnie: The block proposer for 7-3 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Goofy: Ignoring stale PREVOTE vote 31b60dae9fcef2668e74f7f3b1749105212b8d39d8401299fd253dc2472bb98b: round 2 vs. 3
+Minnie: Ignoring stale PREVOTE vote 31b60dae9fcef2668e74f7f3b1749105212b8d39d8401299fd253dc2472bb98b: round 2 vs. 3
+Mickey: The block proposer for 7-3 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Goofy: The block proposer for 7-4 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Minnie: The block proposer for 7-4 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Minnie: Proposing block 982b1c6b38fd42e8b0cb594f2b90418d6c48d1e84770e8d179f954279ffd9e9a for round 7-4.
+Minnie: Ignoring stale PREVOTE vote eafc4bfe4dd9953a3a429b4044a3cdc7e57ecec0c6dbe08a83490a0ba3e60103: round 3 vs. 4
+Goofy: Ignoring stale PREVOTE vote eafc4bfe4dd9953a3a429b4044a3cdc7e57ecec0c6dbe08a83490a0ba3e60103: round 3 vs. 4
+Mickey: The block proposer for 7-4 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Goofy: Locking on to block 982b1c6b38fd42e8b0cb594f2b90418d6c48d1e84770e8d179f954279ffd9e9a
+Minnie: Locking on to block 982b1c6b38fd42e8b0cb594f2b90418d6c48d1e84770e8d179f954279ffd9e9a
+Goofy: Committing to block 982b1c6b38fd42e8b0cb594f2b90418d6c48d1e84770e8d179f954279ffd9e9a
+Minnie: Committing to block 982b1c6b38fd42e8b0cb594f2b90418d6c48d1e84770e8d179f954279ffd9e9a
+Mickey: Locking on to block 982b1c6b38fd42e8b0cb594f2b90418d6c48d1e84770e8d179f954279ffd9e9a
+Mickey: Committing to block 982b1c6b38fd42e8b0cb594f2b90418d6c48d1e84770e8d179f954279ffd9e9a
+Goofy: cutting over to new chain.
+Goofy: The block proposer for 8-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 8-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: cutting over to new chain.
+Goofy: The block proposer for 8-2 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Goofy: Ignoring stale PREVOTE vote 5c3f6fe228868d047ee9966114d18db3b3be89253a01768a48f19bf4f1b4d7dd: round 1 vs. 2
+Minnie: The block proposer for 8-2 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Minnie: Ignoring stale PREVOTE vote 5c3f6fe228868d047ee9966114d18db3b3be89253a01768a48f19bf4f1b4d7dd: round 1 vs. 2
+Mickey: The block proposer for 8-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: Proposing block 3a33da4752cad74948f18baefb1cde307b474bad798967e2a4c4d835753bf067 for round 8-1.
+Goofy: Ignoring stale PREVOTE vote 2763c9e609fe3561128a116ac75d8394abc9bc6df037602cf410a6084dc15c78: round 1 vs. 2
+Mickey: The block proposer for 8-2 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: Proposing block a92a2d9506d350c713e86633d9fe3d09aa83a09c7ea7b35cdbe6b8fa3703d07b for round 8-2.
+Minnie: Ignoring stale PREVOTE vote 2763c9e609fe3561128a116ac75d8394abc9bc6df037602cf410a6084dc15c78: round 1 vs. 2
+Goofy: The block proposer for 8-3 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Minnie: The block proposer for 8-3 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Minnie: Proposing block 157d3871dc845a54e5230ba9add55009754d6f602c1016e66ab5bd7bfc24e383 for round 8-3.
+Minnie: Ignoring stale PREVOTE vote f1e90e81a9a61f35ffdc9f1a79cae9159b5ef7f53b54da0d724b39610a89ea94: round 2 vs. 3
+Goofy: Ignoring stale PREVOTE vote f1e90e81a9a61f35ffdc9f1a79cae9159b5ef7f53b54da0d724b39610a89ea94: round 2 vs. 3
+Mickey: The block proposer for 8-3 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Goofy: Locking on to block 157d3871dc845a54e5230ba9add55009754d6f602c1016e66ab5bd7bfc24e383
+Minnie: Locking on to block 157d3871dc845a54e5230ba9add55009754d6f602c1016e66ab5bd7bfc24e383
+Goofy: Committing to block 157d3871dc845a54e5230ba9add55009754d6f602c1016e66ab5bd7bfc24e383
+Minnie: Committing to block 157d3871dc845a54e5230ba9add55009754d6f602c1016e66ab5bd7bfc24e383
+Mickey: Locking on to block 157d3871dc845a54e5230ba9add55009754d6f602c1016e66ab5bd7bfc24e383
+Mickey: Committing to block 157d3871dc845a54e5230ba9add55009754d6f602c1016e66ab5bd7bfc24e383
+Goofy: cutting over to new chain.
+Goofy: The block proposer for 9-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: cutting over to new chain.
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 9-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Goofy: The block proposer for 9-2 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Minnie: The block proposer for 9-2 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: The block proposer for 9-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: Proposing block 42ee412462d8ad668c404a78ab45e67068424dde5c2536b673991c78231989ed for round 9-1.
+Goofy: Ignoring stale PREVOTE vote a141ca9e8824c3af71fc005b47b32a45a97bde0ad527baf48f2bf4fe2ec19bbc: round 1 vs. 2
+Mickey: The block proposer for 9-2 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: Proposing block 39462f608860a0f5469ded0b2c52c18d192bdbfc29abef4dbbb2c1e67403ba2f for round 9-2.
+Minnie: Ignoring stale PREVOTE vote a141ca9e8824c3af71fc005b47b32a45a97bde0ad527baf48f2bf4fe2ec19bbc: round 1 vs. 2
+Goofy: The block proposer for 9-3 is /g5IgN1ovHGBQjkUwQgA+VqavLf4VZblLtomSdj9joY=
+Goofy: Proposing block 49a73828b725cbf1495c011fb859ac3d51c97e34deab2596787f2cb97426a77a for round 9-3.
+Minnie: The block proposer for 9-3 is /g5IgN1ovHGBQjkUwQgA+VqavLf4VZblLtomSdj9joY=
+Goofy: Ignoring stale PREVOTE vote ef4d50c2b6ababe7f8c2a5e2706464fe14fd1accc6aac327e081bd173bb9b127: round 2 vs. 3
+Minnie: Ignoring stale PREVOTE vote ef4d50c2b6ababe7f8c2a5e2706464fe14fd1accc6aac327e081bd173bb9b127: round 2 vs. 3
+Mickey: The block proposer for 9-3 is /g5IgN1ovHGBQjkUwQgA+VqavLf4VZblLtomSdj9joY=
+Minnie: Locking on to block 49a73828b725cbf1495c011fb859ac3d51c97e34deab2596787f2cb97426a77a
+Goofy: The block proposer for 9-4 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Minnie: The block proposer for 9-4 is dNwEsLQkdSjb998lUZ2jHkDFTVJS69TXlesyjvDDwfo=
+Goofy: Ignoring stale PREVOTE vote 7cb4cf4d015b83b99654ba4690fcf037b5f9892e518474ca2926185243983775: round 3 vs. 4
+Mickey: Locking on to block 49a73828b725cbf1495c011fb859ac3d51c97e34deab2596787f2cb97426a77a
+Goofy: Ignoring stale PRECOMMIT vote 3c7a57a71be6d13a73d9eba25a2091989256425346fb60417502d2b9810ca764: round 3 vs. 4
+Minnie: Ignoring stale PRECOMMIT vote 3c7a57a71be6d13a73d9eba25a2091989256425346fb60417502d2b9810ca764: round 3 vs. 4
+Mickey: Committing to block 49a73828b725cbf1495c011fb859ac3d51c97e34deab2596787f2cb97426a77a
+Goofy: Locking on to block 49a73828b725cbf1495c011fb859ac3d51c97e34deab2596787f2cb97426a77a
+Mickey: No consensus on 49a73828b725cbf1495c011fb859ac3d51c97e34deab2596787f2cb97426a77a (9-3) yet.  Waiting...
+Minnie: Locking on to block 49a73828b725cbf1495c011fb859ac3d51c97e34deab2596787f2cb97426a77a
+Mickey: No consensus on 49a73828b725cbf1495c011fb859ac3d51c97e34deab2596787f2cb97426a77a (9-3) yet.  Waiting...
+Mickey: No consensus on 49a73828b725cbf1495c011fb859ac3d51c97e34deab2596787f2cb97426a77a (9-3) yet.  Waiting...
+Mickey: No consensus on 49a73828b725cbf1495c011fb859ac3d51c97e34deab2596787f2cb97426a77a (9-3) yet.  Waiting...
+Goofy: Committing to block 49a73828b725cbf1495c011fb859ac3d51c97e34deab2596787f2cb97426a77a
+Mickey: No consensus on 49a73828b725cbf1495c011fb859ac3d51c97e34deab2596787f2cb97426a77a (9-3) yet.  Waiting...
+Minnie: Committing to block 49a73828b725cbf1495c011fb859ac3d51c97e34deab2596787f2cb97426a77a
+Mickey: No consensus on 49a73828b725cbf1495c011fb859ac3d51c97e34deab2596787f2cb97426a77a (9-3) yet.  Waiting...
+Mickey: No consensus on 49a73828b725cbf1495c011fb859ac3d51c97e34deab2596787f2cb97426a77a (9-3) yet.  Waiting...
+Mickey: cutting over to new chain.
+Mickey: The block proposer for 10-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Mickey: Proposing block a39c5d9e91b55a887caed7221b2fe40f10b125a118840bc145096fe4d1d1198f for round 10-1.
+Goofy: cutting over to new chain.
+Goofy: The block proposer for 10-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 10-1 is M0ZeYTFRivOHmM3G228qAh6pmK2O9ePIDDUZgSUC8UA=
+
+Minnie has a chain of length 10:
+
+Mickey has a chain of length 10:
+
+Final balances (Minnie's perspective):
+Alice has 192 gold.
+Bob has 139 gold.
+Charlie has 67 gold.
+Minnie has 551 gold.
+Mickey has 325 gold.
+Goofy has 225 gold.
+Donald has 500 gold.
+
+Final balances (Alice's perspective):
+Alice has 192 gold.
+Bob has 139 gold.
+Charlie has 67 gold.
+Minnie has 551 gold.
+Mickey has 325 gold.
+Goofy has 225 gold.
+Donald has 500 gold.

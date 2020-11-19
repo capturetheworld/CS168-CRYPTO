@@ -1,0 +1,155 @@
+Starting simulation.  This may take a moment...
+Initial balances:
+Alice has 233 gold.
+Bob has 99 gold.
+Charlie has 67 gold.
+Minnie has 400 gold.
+Mickey has 300 gold.
+Goofy has 200 gold.
+Donald has 500 gold.
+Alice is transferring 40 gold to 04L1yzACMyC/OXfGg5JvIxy/C72slFBjTypRSDUhkbk=
+Minnie: The block proposer for 1-1 is DVXc3cdnHMxZyQsi3+/guWJjc3ghBCfZPzf04nIXtKY=
+Minnie: Proposing block c0fd9529da192c9572f6d0537e4c9b26dd051f4acd2e6aaffaf0024dbef6cca2 for round 1-1.
+Mickey: The block proposer for 1-1 is DVXc3cdnHMxZyQsi3+/guWJjc3ghBCfZPzf04nIXtKY=
+Goofy: The block proposer for 1-1 is DVXc3cdnHMxZyQsi3+/guWJjc3ghBCfZPzf04nIXtKY=
+Minnie: Locking on to block c0fd9529da192c9572f6d0537e4c9b26dd051f4acd2e6aaffaf0024dbef6cca2
+Mickey: Locking on to block c0fd9529da192c9572f6d0537e4c9b26dd051f4acd2e6aaffaf0024dbef6cca2
+Goofy: Locking on to block c0fd9529da192c9572f6d0537e4c9b26dd051f4acd2e6aaffaf0024dbef6cca2
+Minnie: Committing to block c0fd9529da192c9572f6d0537e4c9b26dd051f4acd2e6aaffaf0024dbef6cca2
+Mickey: Committing to block c0fd9529da192c9572f6d0537e4c9b26dd051f4acd2e6aaffaf0024dbef6cca2
+Goofy: Committing to block c0fd9529da192c9572f6d0537e4c9b26dd051f4acd2e6aaffaf0024dbef6cca2
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 2-1 is 4LKwqNZ/3q347n1hpd/A83MP/4C3P/OpyqsAy8Rkf6c=
+Mickey: cutting over to new chain.
+Mickey: The block proposer for 2-1 is 4LKwqNZ/3q347n1hpd/A83MP/4C3P/OpyqsAy8Rkf6c=
+Mickey: Proposing block ea586e3404d6626435b5fabb5a11a9895835fa268a2233cd835ad8efdeb74cd2 for round 2-1.
+Goofy: cutting over to new chain.
+Goofy: The block proposer for 2-1 is 4LKwqNZ/3q347n1hpd/A83MP/4C3P/OpyqsAy8Rkf6c=
+Minnie: Locking on to block ea586e3404d6626435b5fabb5a11a9895835fa268a2233cd835ad8efdeb74cd2
+Mickey: Locking on to block ea586e3404d6626435b5fabb5a11a9895835fa268a2233cd835ad8efdeb74cd2
+Goofy: Locking on to block ea586e3404d6626435b5fabb5a11a9895835fa268a2233cd835ad8efdeb74cd2
+Minnie: Committing to block ea586e3404d6626435b5fabb5a11a9895835fa268a2233cd835ad8efdeb74cd2
+Mickey: Committing to block ea586e3404d6626435b5fabb5a11a9895835fa268a2233cd835ad8efdeb74cd2
+Goofy: Committing to block ea586e3404d6626435b5fabb5a11a9895835fa268a2233cd835ad8efdeb74cd2
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 3-1 is DVXc3cdnHMxZyQsi3+/guWJjc3ghBCfZPzf04nIXtKY=
+Minnie: Replayed transaction 21b09ce7ac8e8ea5d13dd096a8756c529c41916da6d868ccff9d3aeb0f9194f7.
+Minnie: Proposing block 2901a78929922998afe3d05eb42f98c89cd597123aaf46a68899b49aa5b19a7e for round 3-1.
+Mickey: cutting over to new chain.
+Mickey: The block proposer for 3-1 is DVXc3cdnHMxZyQsi3+/guWJjc3ghBCfZPzf04nIXtKY=
+Goofy: cutting over to new chain.
+Goofy: The block proposer for 3-1 is DVXc3cdnHMxZyQsi3+/guWJjc3ghBCfZPzf04nIXtKY=
+Minnie: Locking on to block 2901a78929922998afe3d05eb42f98c89cd597123aaf46a68899b49aa5b19a7e
+Mickey: Locking on to block 2901a78929922998afe3d05eb42f98c89cd597123aaf46a68899b49aa5b19a7e
+Goofy: Locking on to block 2901a78929922998afe3d05eb42f98c89cd597123aaf46a68899b49aa5b19a7e
+Minnie: Committing to block 2901a78929922998afe3d05eb42f98c89cd597123aaf46a68899b49aa5b19a7e
+Mickey: Committing to block 2901a78929922998afe3d05eb42f98c89cd597123aaf46a68899b49aa5b19a7e
+Goofy: Committing to block 2901a78929922998afe3d05eb42f98c89cd597123aaf46a68899b49aa5b19a7e
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 4-1 is 8MTLQPh83cXEMtludf34iBq7JhHbLaxZ3e+4xhG2nnY=
+Mickey: cutting over to new chain.
+Mickey: The block proposer for 4-1 is 8MTLQPh83cXEMtludf34iBq7JhHbLaxZ3e+4xhG2nnY=
+Goofy: cutting over to new chain.
+Goofy: The block proposer for 4-1 is 8MTLQPh83cXEMtludf34iBq7JhHbLaxZ3e+4xhG2nnY=
+Goofy: Replayed transaction 21b09ce7ac8e8ea5d13dd096a8756c529c41916da6d868ccff9d3aeb0f9194f7.
+Goofy: Proposing block 9b73e6b7b6800c2c7cff6956dc004dd97486e352cec778181ff1ca0ad72a19ae for round 4-1.
+Minnie: Locking on to block 9b73e6b7b6800c2c7cff6956dc004dd97486e352cec778181ff1ca0ad72a19ae
+Mickey: Locking on to block 9b73e6b7b6800c2c7cff6956dc004dd97486e352cec778181ff1ca0ad72a19ae
+Goofy: Locking on to block 9b73e6b7b6800c2c7cff6956dc004dd97486e352cec778181ff1ca0ad72a19ae
+Minnie: Committing to block 9b73e6b7b6800c2c7cff6956dc004dd97486e352cec778181ff1ca0ad72a19ae
+Mickey: Committing to block 9b73e6b7b6800c2c7cff6956dc004dd97486e352cec778181ff1ca0ad72a19ae
+Goofy: Committing to block 9b73e6b7b6800c2c7cff6956dc004dd97486e352cec778181ff1ca0ad72a19ae
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 5-1 is DVXc3cdnHMxZyQsi3+/guWJjc3ghBCfZPzf04nIXtKY=
+Minnie: Proposing block afc614f774545c515517d44f14c33a4899823a2d6f6b7cfdaecf71041ab28791 for round 5-1.
+Mickey: cutting over to new chain.
+Mickey: The block proposer for 5-1 is DVXc3cdnHMxZyQsi3+/guWJjc3ghBCfZPzf04nIXtKY=
+Goofy: cutting over to new chain.
+Goofy: The block proposer for 5-1 is DVXc3cdnHMxZyQsi3+/guWJjc3ghBCfZPzf04nIXtKY=
+Minnie: Locking on to block afc614f774545c515517d44f14c33a4899823a2d6f6b7cfdaecf71041ab28791
+Mickey: Locking on to block afc614f774545c515517d44f14c33a4899823a2d6f6b7cfdaecf71041ab28791
+Goofy: Locking on to block afc614f774545c515517d44f14c33a4899823a2d6f6b7cfdaecf71041ab28791
+Minnie: Committing to block afc614f774545c515517d44f14c33a4899823a2d6f6b7cfdaecf71041ab28791
+Mickey: Committing to block afc614f774545c515517d44f14c33a4899823a2d6f6b7cfdaecf71041ab28791
+Goofy: Committing to block afc614f774545c515517d44f14c33a4899823a2d6f6b7cfdaecf71041ab28791
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 6-1 is 4LKwqNZ/3q347n1hpd/A83MP/4C3P/OpyqsAy8Rkf6c=
+Mickey: cutting over to new chain.
+Mickey: The block proposer for 6-1 is 4LKwqNZ/3q347n1hpd/A83MP/4C3P/OpyqsAy8Rkf6c=
+Mickey: Proposing block 5e0540b4c71416eff603f13a2dda1a87124976b640b39ea8e018e181ecb9840c for round 6-1.
+Goofy: cutting over to new chain.
+Goofy: The block proposer for 6-1 is 4LKwqNZ/3q347n1hpd/A83MP/4C3P/OpyqsAy8Rkf6c=
+Minnie: Locking on to block 5e0540b4c71416eff603f13a2dda1a87124976b640b39ea8e018e181ecb9840c
+Mickey: Locking on to block 5e0540b4c71416eff603f13a2dda1a87124976b640b39ea8e018e181ecb9840c
+Goofy: Locking on to block 5e0540b4c71416eff603f13a2dda1a87124976b640b39ea8e018e181ecb9840c
+Minnie: Committing to block 5e0540b4c71416eff603f13a2dda1a87124976b640b39ea8e018e181ecb9840c
+Mickey: Committing to block 5e0540b4c71416eff603f13a2dda1a87124976b640b39ea8e018e181ecb9840c
+Goofy: Committing to block 5e0540b4c71416eff603f13a2dda1a87124976b640b39ea8e018e181ecb9840c
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 7-1 is DVXc3cdnHMxZyQsi3+/guWJjc3ghBCfZPzf04nIXtKY=
+Minnie: Proposing block 563c9c029c12cfe8dc9063f006a6416c6b5ab61aa740d14a1b74493e5682de48 for round 7-1.
+Mickey: cutting over to new chain.
+Goofy: cutting over to new chain.
+Mickey: The block proposer for 7-1 is DVXc3cdnHMxZyQsi3+/guWJjc3ghBCfZPzf04nIXtKY=
+Goofy: The block proposer for 7-1 is DVXc3cdnHMxZyQsi3+/guWJjc3ghBCfZPzf04nIXtKY=
+Minnie: Locking on to block 563c9c029c12cfe8dc9063f006a6416c6b5ab61aa740d14a1b74493e5682de48
+Mickey: Locking on to block 563c9c029c12cfe8dc9063f006a6416c6b5ab61aa740d14a1b74493e5682de48
+Goofy: Locking on to block 563c9c029c12cfe8dc9063f006a6416c6b5ab61aa740d14a1b74493e5682de48
+Minnie: Committing to block 563c9c029c12cfe8dc9063f006a6416c6b5ab61aa740d14a1b74493e5682de48
+Mickey: Committing to block 563c9c029c12cfe8dc9063f006a6416c6b5ab61aa740d14a1b74493e5682de48
+Goofy: Committing to block 563c9c029c12cfe8dc9063f006a6416c6b5ab61aa740d14a1b74493e5682de48
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 8-1 is DVXc3cdnHMxZyQsi3+/guWJjc3ghBCfZPzf04nIXtKY=
+Minnie: Proposing block 29c10196181497771ba41be30a710848a13889e1cb43fd7e2f87d1f923a7a76f for round 8-1.
+Mickey: cutting over to new chain.
+Mickey: The block proposer for 8-1 is DVXc3cdnHMxZyQsi3+/guWJjc3ghBCfZPzf04nIXtKY=
+Goofy: cutting over to new chain.
+Goofy: The block proposer for 8-1 is DVXc3cdnHMxZyQsi3+/guWJjc3ghBCfZPzf04nIXtKY=
+Minnie: Locking on to block 29c10196181497771ba41be30a710848a13889e1cb43fd7e2f87d1f923a7a76f
+Mickey: Locking on to block 29c10196181497771ba41be30a710848a13889e1cb43fd7e2f87d1f923a7a76f
+Goofy: Locking on to block 29c10196181497771ba41be30a710848a13889e1cb43fd7e2f87d1f923a7a76f
+Minnie: Committing to block 29c10196181497771ba41be30a710848a13889e1cb43fd7e2f87d1f923a7a76f
+Mickey: Committing to block 29c10196181497771ba41be30a710848a13889e1cb43fd7e2f87d1f923a7a76f
+Goofy: Committing to block 29c10196181497771ba41be30a710848a13889e1cb43fd7e2f87d1f923a7a76f
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 9-1 is 4LKwqNZ/3q347n1hpd/A83MP/4C3P/OpyqsAy8Rkf6c=
+Mickey: cutting over to new chain.
+Mickey: The block proposer for 9-1 is 4LKwqNZ/3q347n1hpd/A83MP/4C3P/OpyqsAy8Rkf6c=
+Mickey: Proposing block cb2119a63b09995b2354dc7ad40164f7e64185969dc95cf06900fc98dff22241 for round 9-1.
+Goofy: cutting over to new chain.
+Goofy: The block proposer for 9-1 is 4LKwqNZ/3q347n1hpd/A83MP/4C3P/OpyqsAy8Rkf6c=
+Minnie: Locking on to block cb2119a63b09995b2354dc7ad40164f7e64185969dc95cf06900fc98dff22241
+Mickey: Locking on to block cb2119a63b09995b2354dc7ad40164f7e64185969dc95cf06900fc98dff22241
+Goofy: Locking on to block cb2119a63b09995b2354dc7ad40164f7e64185969dc95cf06900fc98dff22241
+Minnie: Committing to block cb2119a63b09995b2354dc7ad40164f7e64185969dc95cf06900fc98dff22241
+Mickey: Committing to block cb2119a63b09995b2354dc7ad40164f7e64185969dc95cf06900fc98dff22241
+Goofy: Committing to block cb2119a63b09995b2354dc7ad40164f7e64185969dc95cf06900fc98dff22241
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 10-1 is DVXc3cdnHMxZyQsi3+/guWJjc3ghBCfZPzf04nIXtKY=
+Minnie: Proposing block be5a02cba0a727509b24933432f3fd0c92fa40e9ab69766fe342763cf34d394c for round 10-1.
+Mickey: cutting over to new chain.
+Mickey: The block proposer for 10-1 is DVXc3cdnHMxZyQsi3+/guWJjc3ghBCfZPzf04nIXtKY=
+Goofy: cutting over to new chain.
+Goofy: The block proposer for 10-1 is DVXc3cdnHMxZyQsi3+/guWJjc3ghBCfZPzf04nIXtKY=
+
+Minnie has a chain of length 10:
+
+Mickey has a chain of length 10:
+
+Final balances (Minnie's perspective):
+Alice has 192 gold.
+Bob has 139 gold.
+Charlie has 67 gold.
+Minnie has 525 gold.
+Mickey has 351 gold.
+Goofy has 225 gold.
+Donald has 500 gold.
+
+Final balances (Alice's perspective):
+Alice has 192 gold.
+Bob has 139 gold.
+Charlie has 67 gold.
+Minnie has 525 gold.
+Mickey has 351 gold.
+Goofy has 225 gold.
+Donald has 500 gold.

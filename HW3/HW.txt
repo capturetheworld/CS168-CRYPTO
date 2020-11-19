@@ -1,0 +1,122 @@
+This homework assignment explores Tendermint's style of proof-of-stake.  In the Tendermint model, clients bond tokens to become validators, responsible for producing and verifying blocks.
+
+We will simplify their overall design in the following ways:
+
+* The set of validators is fixed at blockchain creation.
+* Coins cannot be either bonded or unbonded after the genesis block.
+* Messages will be guaranteed to be received (but not necessarily in order).
+* If Byzantine behavior is detected, the network will shut down.
+
+
+PART 1 -- Setup
+---------------
+
+Download the starter code from the course website.
+
+The implementation files are:
+
+*validator.js [YOUR CHANGES ARE HERE]
+*stake-block.js
+*stake-blockchain.js
+*proposal.js
+*vote.js
+*unreliable-net.js
+
+Various test cases are provided, with corresponding output files:
+*driver.js [SIMPLEST CASE]
+*driver-with-delays.js
+*driver-byz-proposer.js
+*driver-byz-voter.js
+
+For the last two test cases, you will also need:
+*byzantine-proposer.js
+*byzantine-voter.js
+
+
+Install SpartanGold in your working directory:
+
+$ npm install spartan-gold
+
+
+
+PART 2 -- Calculate block proposer
+----------------------------------
+
+Tendermint uses a weighted round robin algorithm to determine the block proposer.  The process is deterministic, so everyone knows who the block producer should be.
+
+Implement the updatePower algorithm as described in the slides and in the code comments.
+
+
+
+PART 3 -- Implement prevote method
+----------------------------------
+
+After proposals have been collected, the validator must determine which block to vote for, or whether to vote NIL for no block.  Implement this logic.
+
+Note that the Vote.makeVote and Vote.makeNilVote methods may be useful to you.
+
+If this.lockedBlock is defined, vote for the locked block.
+
+Otherwise, iterate through the proposed blocks.  There should only be one valid block proposal, but you might have stale or invalid proposals.
+
+Ignore invalid proposals or duplicates.  HOWEVER, if you receive two valid proposals for the same round and the same height, call postEvidenceTransaction.  (This method just throws an exception, but we could modify to broadcast evidence of Byzantine behavior to the rest of the network).
+
+If no valid vote is received, broadcast a NIL vote.
+
+Set 'vote' to the validators vote.  The code will then broadcast this prevote and start collecting other prevotes.  (This portion is done for you).
+
+
+
+PART 3 -- Implement precommit method
+------------------------------------
+
+After waiting for prevotes, the validator must determine whether there were enough votes for a block (or for no block).
+
+The rules are:
+1) If a block gains 2/3 of the prevotes, lock on to that block and broadcast a vote for a precommit.
+2) If NIL gains 2/3 votes, release the lock.
+3) If no 2/3 majority is reached, do nothing.
+
+Implement the precommit method with this logic.  Node that winningBlockID will be:
+1) The ID of the winning block, if there is a winner.
+2) "NIL", if NIL wins.
+3) undefined, if there is no 2/3 majority.
+
+Note that you only broadcast a precommit vote in case #1.  No messages are broadcast otherwise.
+
+
+
+PART 4 -- Implement commit method
+---------------------------------
+
+After waiting for precommits, the validator must determine if there were enough votes to commit to the locked block.
+
+The rules are:
+1) If a block gains 2/3 of the total precommit votes, broadcast a commit to the block.
+2) Otherwise, begin a new round.
+
+Implement this logic in the commitDecision and commit methods.
+
+
+
+PART 5 - Test your code
+-----------------------
+
+Test your code with all 4 driver files.
+
+The driver.js file is the easiest case.  All messages are sent with no delay, so the network should be able to come to consensus in a single round.
+
+The driver-with-delays.js file delays messages up to a second, possible sending them out of order.  As a result, multiple rounds may be needed to come to consensus for each block.
+
+The driver-byz-proposer.js file includes a proposer that broadcasts conflicting blocks.
+
+The driver-byz-voter.js file includes a validator that both votes for valid blocks and votes for NIL for the same height and round.
+
+Each driver has a matching output file.  Your output might not match mine exactly (especially in the driver-with-delays.js case).
+
+
+PART 6 - Submit your code
+-------------------------
+
+Submit validator.js to Canvas.  No other files should be submitted, or I will deduct points.
+

@@ -1,0 +1,67 @@
+Starting simulation.  This may take a moment...
+Initial balances:
+Alice has 233 gold.
+Bob has 99 gold.
+Charlie has 67 gold.
+Minnie has 400 gold.
+Mickey has 300 gold.
+Goofy has 200 gold.
+Donald has 500 gold.
+Maleficent has 500 gold.
+Alice is transferring 40 gold to jDKRlREdWKxHZxF6ZCpBJWFIjeIsd8x6tnx4x5gKFIo=
+Minnie: The block proposer for 1-1 is 44FKPq+mlmnqwFHWVuEHowgfZhHo4GQA73/+Kn1LyP4=
+Minnie: Proposing block 098499ce21ee4ef7a2abebd71a3f6c3c9126200cfee43eb95fee115c70055c58 for round 1-1.
+Mickey: The block proposer for 1-1 is 44FKPq+mlmnqwFHWVuEHowgfZhHo4GQA73/+Kn1LyP4=
+Goofy: The block proposer for 1-1 is 44FKPq+mlmnqwFHWVuEHowgfZhHo4GQA73/+Kn1LyP4=
+Maleficent: The block proposer for 1-1 is 44FKPq+mlmnqwFHWVuEHowgfZhHo4GQA73/+Kn1LyP4=
+Minnie: Locking on to block 098499ce21ee4ef7a2abebd71a3f6c3c9126200cfee43eb95fee115c70055c58
+Mickey: Locking on to block 098499ce21ee4ef7a2abebd71a3f6c3c9126200cfee43eb95fee115c70055c58
+Goofy: Locking on to block 098499ce21ee4ef7a2abebd71a3f6c3c9126200cfee43eb95fee115c70055c58
+Maleficent: Locking on to block 098499ce21ee4ef7a2abebd71a3f6c3c9126200cfee43eb95fee115c70055c58
+Minnie: Committing to block 098499ce21ee4ef7a2abebd71a3f6c3c9126200cfee43eb95fee115c70055c58
+Mickey: Committing to block 098499ce21ee4ef7a2abebd71a3f6c3c9126200cfee43eb95fee115c70055c58
+Goofy: Committing to block 098499ce21ee4ef7a2abebd71a3f6c3c9126200cfee43eb95fee115c70055c58
+Maleficent: Committing to block 098499ce21ee4ef7a2abebd71a3f6c3c9126200cfee43eb95fee115c70055c58
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 2-1 is x0BwDkpZZrxskONEfdHfXWGl2BrKrrt57GWxyoWcF08=
+Mickey: cutting over to new chain.
+Mickey: The block proposer for 2-1 is x0BwDkpZZrxskONEfdHfXWGl2BrKrrt57GWxyoWcF08=
+Mickey: Proposing block d3357885d5e70573a17e42d26b53b78093f12f35d32d2efb612dfb9624a1862d for round 2-1.
+Goofy: cutting over to new chain.
+Goofy: The block proposer for 2-1 is x0BwDkpZZrxskONEfdHfXWGl2BrKrrt57GWxyoWcF08=
+Maleficent: cutting over to new chain.
+Maleficent: The block proposer for 2-1 is x0BwDkpZZrxskONEfdHfXWGl2BrKrrt57GWxyoWcF08=
+Minnie: Locking on to block d3357885d5e70573a17e42d26b53b78093f12f35d32d2efb612dfb9624a1862d
+Mickey: Locking on to block d3357885d5e70573a17e42d26b53b78093f12f35d32d2efb612dfb9624a1862d
+Goofy: Locking on to block d3357885d5e70573a17e42d26b53b78093f12f35d32d2efb612dfb9624a1862d
+Maleficent: Locking on to block d3357885d5e70573a17e42d26b53b78093f12f35d32d2efb612dfb9624a1862d
+Minnie: Committing to block d3357885d5e70573a17e42d26b53b78093f12f35d32d2efb612dfb9624a1862d
+Mickey: Committing to block d3357885d5e70573a17e42d26b53b78093f12f35d32d2efb612dfb9624a1862d
+Goofy: Committing to block d3357885d5e70573a17e42d26b53b78093f12f35d32d2efb612dfb9624a1862d
+Maleficent: Committing to block d3357885d5e70573a17e42d26b53b78093f12f35d32d2efb612dfb9624a1862d
+Minnie: cutting over to new chain.
+Minnie: The block proposer for 3-1 is /3avQxfTWW5aeFvwMNaLuBBroRrVrk6Ta1W6h/7OewE=
+Mickey: cutting over to new chain.
+Mickey: The block proposer for 3-1 is /3avQxfTWW5aeFvwMNaLuBBroRrVrk6Ta1W6h/7OewE=
+Goofy: cutting over to new chain.
+Goofy: The block proposer for 3-1 is /3avQxfTWW5aeFvwMNaLuBBroRrVrk6Ta1W6h/7OewE=
+Maleficent: cutting over to new chain.
+Maleficent: The block proposer for 3-1 is /3avQxfTWW5aeFvwMNaLuBBroRrVrk6Ta1W6h/7OewE=
+Maleficent: Replayed transaction 83cf3ad5528eddd3152900da7b2c6c1664e582f88942b3db89ae6d188d5c71f6.
+Maleficent: Proposing block 010b58544927cfb8446999e52e098b2ca30a31e9dd096327c79c2789efd483a7 for round 3-1.
+/Users/taustin/classes/cs168/hw/hw3-proofOfDeposit/validator.js:525
+    throw new Error(`
+    ^
+
+Error: 
+      Possible Byzantine behavior by /3avQxfTWW5aeFvwMNaLuBBroRrVrk6Ta1W6h/7OewE=.
+      Received conflicting messages:
+      -> {"from":"/3avQxfTWW5aeFvwMNaLuBBroRrVrk6Ta1W6h/7OewE=","block":{"chainLength":3,"timestamp":1603060336291,"transactions":[],"prevBlockHash":"d3357885d5e70573a17e42d26b53b78093f12f35d32d2efb612dfb9624a1862d","rewardAddr":"/3avQxfTWW5aeFvwMNaLuBBroRrVrk6Ta1W6h/7OewE="},"height":3,"round":1,"pubKey":"-----BEGIN PUBLIC KEY-----\nMFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAMB8cLnaHUDmRnOuFYJ3oxq4IkV5cWH/\nwliGXaL+7j4jMUXYqhcR5CkjekhNI6WPfyjo9AGYW+283gHgN+C/uskCAwEAAQ==\n-----END PUBLIC KEY-----\n","sig":"5fe295da44e72c34bb62cd08b70e3e7f64489e7e537a5aad6fbca66130a7a137e5ccddafca427e303ee1df629425505f755b8b110da1eba6dbd1250e7072ec33","blockID":"010b58544927cfb8446999e52e098b2ca30a31e9dd096327c79c2789efd483a7"}
+      -> {"from":"/3avQxfTWW5aeFvwMNaLuBBroRrVrk6Ta1W6h/7OewE=","block":{"chainLength":3,"timestamp":1603060336291,"transactions":[["ba28bb7f7aba8fa40834e5f6880606b42e6fedfcab4a1632d0a018655add0d7c",{"from":"/3avQxfTWW5aeFvwMNaLuBBroRrVrk6Ta1W6h/7OewE=","nonce":0,"pubKey":"-----BEGIN PUBLIC KEY-----\nMFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAMB8cLnaHUDmRnOuFYJ3oxq4IkV5cWH/\nwliGXaL+7j4jMUXYqhcR5CkjekhNI6WPfyjo9AGYW+283gHgN+C/uskCAwEAAQ==\n-----END PUBLIC KEY-----\n","sig":"51f7444c0cef28f72b7d5ce4dda823107864a51993d0a65a6307305d0e549ff185a9b516451171bdea3aae9aafc3f401c605763423652ae88d8b4cc671616c81","fee":0,"outputs":[{"amount":100,"address":"/3avQxfTWW5aeFvwMNaLuBBroRrVrk6Ta1W6h/7OewE="}],"data":{}}]],"prevBlockHash":"d3357885d5e70573a17e42d26b53b78093f12f35d32d2efb612dfb9624a1862d","rewardAddr":"/3avQxfTWW5aeFvwMNaLuBBroRrVrk6Ta1W6h/7OewE="},"height":3,"round":1,"pubKey":"-----BEGIN PUBLIC KEY-----\nMFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAMB8cLnaHUDmRnOuFYJ3oxq4IkV5cWH/\nwliGXaL+7j4jMUXYqhcR5CkjekhNI6WPfyjo9AGYW+283gHgN+C/uskCAwEAAQ==\n-----END PUBLIC KEY-----\n","sig":"9876024b9165c8ee45fc1f1f5c422fe407c47e85e2f57984fe55a3f2ba7ca0861a0063d05c2f81427ad278c66966abbba407d8ea1e5546489b925a746e7aa1aa","blockID":"3f8c623fed526ae957b70fe3e379dd47c099f05724aeb4855e86a04475caa284"}
+    at Validator.postEvidenceTransaction (/Users/taustin/classes/cs168/hw/hw3-proofOfDeposit/validator.js:525:11)
+    at /Users/taustin/classes/cs168/hw/hw3-proofOfDeposit/validator.js:330:20
+    at Array.forEach (<anonymous>)
+    at Validator.prevote (/Users/taustin/classes/cs168/hw/hw3-proofOfDeposit/validator.js:321:22)
+    at Timeout._onTimeout (/Users/taustin/classes/cs168/hw/hw3-proofOfDeposit/validator.js:192:27)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
