@@ -1,0 +1,41 @@
+For this lab, we will explore how mining pools work.
+
+In our example, we have 10 miners.  Minnie, Mickey, and Donald are independent miners.  Snow white operates a mining pool (but does not mine).  The seven dwarves are her miners.
+
+(Note that this would be an alarming state in a PoW blockchain.  Snow White controls 70% of the mining power, opening up a lot of attacks and problems.  However, if she abused her position too much, her miners might abandon her to form a new mining pool).
+
+
+Part 1 - Pay-Per-Share Mining Pool
+
+In the simplest model, the operator pays miners immediately whenever they report a "share" (proof-of-work that matches a slightly easier target than the proof required for a block).
+
+Download driver.js, pool-operator.js, and pool-miner.js from the course website.
+
+Run the example and inspect the code to see how the pool miners search for "shares", and how the operator rewards those shares.
+
+In general, Snow White should make money, but this is not guaranteed.  If she is unlucky, the amount of shares found by her miners might exceed the amount of block rewards that Snow White receives.  (To see an unlucky example, lower the number of leading zeroes required -- that will bias the network in favor of the non-pool miners, since their mining turns are likely to come earlier, and they may find a proof before the pool miner have a chance.)
+
+
+Part 2 - Proportional Mining Pool
+
+In a proportional (PROP) mining pool, the rewards are divided amongst all of the miners who participated in finding the block.  This design is safer for the operator, since they do not pay out rewards until a block proof is found.  However, this design is vulnerable to pool-hopping attacks.
+
+Extend the PoolOperator class to make a new PropPoolOperator class.
+
+Override the rewardMiner method to store the address of any miner who contributes a share.  Now the miner is not paid immediately, but will receive their reward eventually.
+
+Override the payRewards method to post a transacting paying all miners who contributed a share to the last block.  The coinbase reward is 25 gold.  The operator will keep 5 gold, and divide up the remaining gold among the miners according to the amount of shares that they found.
+
+(By posting a transaction, there is a risk that the block will be orphaned, and the operator will eat the cost of the shares it paid out.  We can avoid this problem by including the reward transaction only in our own block, and then redoing the transaction if our block is orphaned.  If you feel ambitious, you can try that approach.)
+
+
+PART 3 - Pay-Per-Last-N-Shares Pool
+
+A pay-per-last-N-shares (PPLNS) pool is not vulnerable to pool-hopping attacks, and the risk to the operator is low.  As a result, this type of pool has come to dominate over time.
+
+Like a PPS pool, we can pay out a fixed amount to our miners.  In our case, we will pay out 4 gold per share.  However, like the PROP pool, we only pay once a reward is received.
+
+To make this model work, we only pay out for the N most recent shares when we find a block proof.  We will set N=5, paying out a total of 20 gold to our miners.
+
+As with part 2, override the rewardMiner and payRewards methods.
+
