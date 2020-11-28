@@ -87,7 +87,7 @@ Note that you only broadcast a precommit vote in case #1.  No messages are broad
 
 
 PART 4 -- Implement commit method
----------------------------------
+------------s--------------------
 
 After waiting for precommits, the validator must determine if there were enough votes to commit to the locked block.
 

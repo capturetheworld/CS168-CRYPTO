@@ -221,18 +221,35 @@ module.exports = class Validator extends Miner {
    * @param proposerAddr - The address of the block proposer.
   */
   updatePower(accumPower, bondBalances, proposerAddr) {
-    //
-    // **YOUR CODE HERE**
-    //
+   
+    
     // For every validator (including the proposer), increase their accumulated
     // power according to the amount of coins they currently have bonded.
-    //
     // Calculate the total increase in power.  (You can do this when you loop
     // through the validators in the previous step).
+    
+    let totalInc = 0; //total increase in power
+
+    accumPower.forEach(function(power, address){
+      accumPower.set(address,accumPower.get(address)+bondBalances.get(address));
+      totalInc = totalInc + bondBalances.get(address);
+    })
+    
+    
     //
     // Once you have calculated the total increase, deduct that amount from the block
     // proposer's accumulated power.  (The effect of this step is that the proposer
     // is moved back in the queue.)
+
+    let difference = accumPower.get(proposerAddr)-totalInc;
+    if(difference < 0){
+      difference = 0;
+      accumPower.set(proposerAddr,0);
+    }
+    else{
+      accumPower.set(proposerAddr,difference);
+    }
+
   }
 
   /**
@@ -312,9 +329,40 @@ module.exports = class Validator extends Miner {
   prevote() {
     let vote = undefined;
 
-    //
-    // **YOUR CODE HERE**
-    //
+    if(this.lockedBlock !== undefined){
+      vote = Vote.makeVote(this,"prevote",this.lockedBlock.id);
+    }
+    else{
+      for(let proposal in this.proposals){
+        if(this.proposals[proposal].height >= this.height ||this.proposals[proposal].round >= this.round){
+          for(let that in this.proposals){ 
+            //* This method should also check for conflicting proposals from the block proposer.
+            if(proposal > that){
+              continue;
+            } 
+            else if((this.proposals[proposal].from !== this.proposals[that].from 
+              ||     this.proposals[proposal].height !== this.proposals[that].height
+               || this.proposals[proposal].round !== this.proposals[that].round
+               )&& this.proposals[proposal].blockID !== this.proposals[that].blockID){ 
+                this.postEvidenceTransaction(this.proposals[proposal].from, this.proposals[proposal], this.proposals[that]);
+                
+               }
+               else{
+                vote = Vote.makeVote(this,"prevote",this.proposals[proposal].blockID);
+                break;
+               }
+            
+          }
+          
+        }
+        else{
+         continue;
+        }
+      }
+    }
+    if(vote === undefined){
+      vote = Vote.makeNilVote(this,"prevote");
+    }
 
     //this.log(`Voting for block ${vote.blockID}`);
 
@@ -352,10 +400,25 @@ module.exports = class Validator extends Miner {
 
     // NOTE: If we were following the protocol correctly, we would need to make
     // a proof-of-lock for both block consensus or for NIL consensus.
+    
+    if(winningBlockID !== "NIL" && winningBlockID !== undefined){
+      this.lockedBlock = this.proposedBlocks[winningBlockID];//lock on to block
+      this.log(`Lockin on to ${winningBlockID} since block contains 2/3 votes. Broadcasting...`);
+      this.net.broadcast(StakeBlockchain.PRECOMMIT, Vote.makeVote(this,"precommit",winningBlockID));
+    }
+    else if (winningBlockID === "NIL"){
+      delete this.lockedBlock;
+      delete this.nextBlock;
+     
 
-    //
-    // **YOUR CODE HERE**
-    //
+    }
+    else if (winningBlockID === undefined){
+      //block undefined
+    }
+    else{
+      console.log("precommit has an error. The function figured out none of the three possibilities were met: a block won a 2/3 majority, winningBlockID was NIL, nor was swinningBlockID undefined");
+    }
+ 
 
     // Setting to decide on whether to commit.
     setTimeout(() => this.commitDecision(), this.round*StakeBlockchain.DELTA);
@@ -378,10 +441,14 @@ module.exports = class Validator extends Miner {
   commitDecision() {
     let winningBlockID = this.countVotes(this.precommits);
     this.precommits = {};
+    if(winningBlockID !== undefined && winningBlockID !== "NIL"){
+      this.commit(winningBlockID);
+    }
+    else{
+      this.newRound();
+    }
 
-    //
-    // **YOUR CODE HERE**
-    //
+    
     // If there is a winner, call the commit method with the
     // winning block ID.
     //
@@ -402,9 +469,9 @@ module.exports = class Validator extends Miner {
 
     this.log(`Committing to block ${winningBlockID}`);
 
-    //
-    // **YOUR CODE HERE**
-    //
+    this.nextBlock = this.proposedBlocks[winningBlockID];
+    let commit = Vote.makeVote(this,"commit",winningBlockID);
+    this.net.broadcast(StakeBlockchain.COMMIT, commit);
     // Look up the block for winningBlockID from this.proposedBlocks.
     // (Since we don't drop messages in our simulation, it should be available.)
     // 
