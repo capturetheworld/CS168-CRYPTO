@@ -1,0 +1,11 @@
+For today's lab, we will set up nonoutsourceable puzzles in SpartanGold.
+
+This design integrates digital signatures into the mining process, with the result that mining pools cannot operate. (If the operator gives out the private key, all of the reward could be stolen by the winning miner.)
+
+The procedure happens in two phases.
+
+First, the miner races to find a valid proof-of-work. However, the transactions and reward address are NOT included in this hash. Instead, the miner must sign other fields of the block before calculating the hash value. The signature is stored in 'sig1'.
+
+Once the miner has found a valid proof, they sign the transactions and reward address using the same private key. They can then announce the proof to the network and collect the reward. This second signature is stored in 'sig2'.
+
+Starter code is available on the course website.
