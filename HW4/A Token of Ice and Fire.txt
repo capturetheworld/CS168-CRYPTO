@@ -1,0 +1,34 @@
+A Token of Ice and Fire
+For this homework, you will implement your own ERC-20 token.
+
+Download ERC20Interface.sol from the course website and implement all methods in a separate solidity file.
+
+Add the following additional fields:
+
+symbol -- A field with the 3-letter token name of your choice. Its type should be "string public constant".
+name -- Your name, stored in a string public constant field.
+ 
+
+Add support for freezing accounts
+Give the contract creator special power to freeze accounts, making the tokens unspendable.
+
+
+Add the following functions
+
+freeze(address) -- Marks the given address as frozen.
+thaw(address) -- Unmarks the given address as frozen.
+Probably the easiest way to track this information is in a mapping(address => bool) field of the contract. Be sure that it is private.
+
+Update the transfer and transferFrom methods so that they will fail to transfer funds if the sender's account is frozen.
+
+ 
+
+Add support for burning tokens
+Burning tokens destroys them forever. There are a variety of reasons to burn tokens. In some protocols, burning tokens is a requirement to create tokens on a different chain. In these cases, the transaction on the Ethereum chain is used as a "proof-of-burn".
+
+Add a `burn(uint)` function. It should destroy the specified number of tokens, if the caller has sufficient tokens. The caller's balance and the totalSupply function should both reflect the reduction in the coin supply.
+
+ 
+
+Submit your contract code when complete.
+

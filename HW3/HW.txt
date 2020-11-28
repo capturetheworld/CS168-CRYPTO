@@ -24,7 +24,7 @@ The implementation files are:
 
 Various test cases are provided, with corresponding output files:
 *driver.js [SIMPLEST CASE]
-*driver-with-delays.js
+*driver-with-delays.js //complicated
 *driver-byz-proposer.js
 *driver-byz-voter.js
 
