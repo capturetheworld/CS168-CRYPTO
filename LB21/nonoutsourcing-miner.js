@@ -39,9 +39,15 @@ module.exports = class NonoutsourcingMiner extends Miner {
     let pausePoint = this.currentBlock.proof + this.miningRounds;
 
     while (this.currentBlock.proof < pausePoint) {
-      //
-      // **YOUR CODE HERE**
-      //
+      if(this.currentBlock.hasValidPrelimProof() === true){
+         this.currentBlock.sign(this.keyPair.private); //sets sig2
+         this.foundProof();
+         break;
+      }else{
+          this.currentBlock.proof++;
+          this.currentBlock.signPrelim(this.keyPair.private); //sets sig 1
+
+      }
       // Check to see if the current block has a valid preliminary proof.
       // If so, sign the block (setting 'sig2'), call 'this.foundProof()',
       // and break out of the while loop.

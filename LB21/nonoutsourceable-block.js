@@ -27,9 +27,7 @@ module.exports = class NonOutsourceableBlock extends Block {
    * and the first signature.
    */
   miningHash() {
-    //
-    // **YOUR CODE HERE**
-    //
+    this.miningHash =utils.hash(`${this.prevBlockHash}||${this.pubKey}||${this.proof}||${this.sig1}`);
   }
 
   /**
@@ -64,9 +62,7 @@ module.exports = class NonOutsourceableBlock extends Block {
    * Sign the transaction hash and save the result in 'sig2' of the block.
    */
   sign(privKey) {
-    //
-    // **YOUR CODE HERE**
-    //
+    this.sig2 = utils.sign(privKey, this.transactionHash());
   }
 
   /**
@@ -74,9 +70,7 @@ module.exports = class NonOutsourceableBlock extends Block {
    * additional signature (sig2) for the transactions and the reward address.
    */
   hasValidProof() {
-    //
-    // **YOUR CODE HERE**
-    //
+    return(this.hasValidPrelimProof() && this.sig2 !== undefined)
   }
 
   /**
