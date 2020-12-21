@@ -1,0 +1,19 @@
+In today's lab, we will experiment with selfish mining attacks.
+
+In this attack, a miner attempts to mine in secret, and only reveal blocks when there is a danger that the rest of the network will catch up. The goal is to make the rest of the mining network waste their efforts on "dead" blocks in order for the selfish miner to gain more than their fair share of the mining rewards.
+
+Download driver.js and selfish-miner.js from the course website. In this code, Maleficent is the greedy miner. She starts mining before Mickey and Minnie, and therefore has a chance to perform a selfish mining attack more easily.
+
+Once Mickey and Minnie have caught up, Maleficent will reveal her blocks and start behaving normally. In selfish-miner.js, "this.greeyMode" indicates whether Maleficent should act normally or perform the attack.
+
+
+Modify the SelfishMiner's announceProof method. In greedy mode, nothing needs to be done. Otherwise, call `super.announceProof()` to share the proof as per normal operation.
+
+Modify the receiveBlock method to check incoming blocks.
+
+If the incoming block has a 'chainLength' within a few blocks of the selfish miner's most recent block (this.lastBlock), announce the miner's most recent block. See the announceProof method of SpartanGold's Miner class to see how to do this. Once that has been done, set greedyMode to false and stop the selfish mining attack.
+
+On my system, I waited until Mickey and Minnie were within 5 blocks of Maleficent's `lastBlock.chainLength`. With fewer blocks, Mickey and Minnie could overtake Maleficent while she was busy sharing her secret blocks. You might want to play around with the number of blocks and the `powLeadingZeroes` parameter in driver.js.
+
+
+NOTE: A head start is not required to perform selfish mining, but it makes it a lot simpler. Otherwise, Maleficent would need to ensure that she could intercept Mickey and Minnie's blocks and broadcast her own blocks instead.

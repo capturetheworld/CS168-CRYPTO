@@ -1,0 +1,48 @@
+In today's lab, we will look at reentrancy attacks, which are one of the most notorious security issues in Ethereum. This attack was used to steal money from the DAO.
+
+
+USE YOUR POWERS ONLY FOR GOOD.
+
+
+--------------------------------
+PART A: Play with the fundraiser
+--------------------------------
+
+The fundraiser represents money contributed for a project -- i.e. crowd-sourced funding.
+
+Download VulnerableFundraiser.sol from the course website. See if you can spot the vulnerability before running it.
+
+(Note that this file also contains FundraiserWallet. There is a cyclic dependency of the imports, meaning each contract refers to the other. Solidity does not handle these very well, and the workarounds are a little ugly. To avoid this mess, we are declaring both contracts in the same file.)
+
+Compile this code in Remix, and then deploy using the JavaScript VM. Save the address of your VulnerableFundraiser contract.
+
+Using the donate method, give the Fundraiser 5 ether. (With the JavaScript VM, you will have several accounts with 100 ether). This ether will represent contributions made by other parties.
+
+--------------------------------
+PART A: Play with the wallet
+--------------------------------
+
+The wallet allows the user to interact with the fundraiser, contributing and withdrawing funds.
+
+Deploy FundraiserWallet, specifying the address of your VulnerableFundraiser. Transfer 0.2 ether to this wallet.
+
+Once you have done that, contribute money from the wallet to the fundraiser. Note the values reported by the getBalance (on both the fundraiser and on the wallet) and the getContributedBalance functions.
+
+Use withdraw from FundraiserWallet to reclaim your coins.
+
+ 
+
+---------------------------------
+PART C: Steal from the fundraiser
+---------------------------------
+
+Now that you are comfortable with the setup, you will modify the wallet to allow you to steal funds from the fundraiser.
+
+The vulnerability lies in the payout function in the wallet called by the fundraiser. This function can be modified to call withdrawAllMyCoins, withdrawing the same amount of ether again. And again and again and again ...
+
+(If you are not careful, you will run into an infinite loop and run out of gas. Consider how you would stop looping).
+
+Modify **ONLY THE WALLET CODE**, updating the payout method to steal coins from the fundraiser.
+
+Redeploy your wallet, specifying the address of the original fundraiser. Verify that you can seize coins stored in the VulnerableFundraiser.
+
